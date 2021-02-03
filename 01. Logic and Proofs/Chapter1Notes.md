@@ -3,7 +3,7 @@ CS-113 Discrete Structures
 1/26/2021  
 
 #### Propositions
-- A proposition is a statement that is either true or false
+- A `proposition` is a statement that is either true or false
   - “I am wearing shoes” IS a proposition
   - “It’s raining” IS a proposition
   - “This sentence is false” is NOT a proposition
@@ -16,6 +16,7 @@ CS-113 Discrete Structures
   - We normally call this AND
   - We write p ^ q
   - p^q is true only if both p and q are two otherwise false
+  - Formal name for AND is conjunction
 
 #### Truth Tables
 - Truth tables are a simple way to express and/or determine the truth or falsity of a proposition
@@ -26,7 +27,38 @@ CS-113 Discrete Structures
 
 | p 	| q 	| p^q (Truth value of p and q) 	|  
 |-	|-	|-	|  
-| t 	| t 	| t 	|  
-| t 	| f 	| f 	|  
-| f 	| t 	| f 	|  
-| f 	| f 	| f 	|  
+| T 	| T 	| T 	|  
+| T 	| F 	| F 	|  
+| F 	| T 	| F 	|  
+| F 	| F 	| F 	|  
+
+#### Even More Ways to Combine Propositions
+- We can negate a proposition
+- This is its opposite and is called NOT
+- Here is a truth table for NOT:  
+  |     p    	|     NOT   p    	|
+  |-	|-	|
+  |     T    	|     T    	|
+  |     F    	|     T    	|  
+- We can form the disjunction of two propositions
+- Disjunction means OR
+- Here is at truth table for OR:  
+  |     p    	|     q    	|     p   OR q    	|
+  |-	|-	|-	|
+  |     T    	|     T    	|     T    	|
+  |     T    	|     F    	|     T    	|
+  |     F    	|     T    	|     T    	|
+  |     F    	|     F    	|     F    	|  
+- We can form a conditional proposition
+- A conditional proposition is what you mean when you say “if p then q”
+- It is also read as “p implies q”
+- Here is a truth table for that:  
+  |     p    	|     q    	|     IF   p THEN q    	|
+  |-	|-	|-	|
+  |     T    	|     T    	|     T    	|
+  |     T    	|     F    	|     F    	|
+  |     F    	|     T    	|     T    	|
+  |     F    	|     F    	|     T    	|  
+- It is written as p → q
+- The table comes from the idea of lying:
+  - p → q is true not based on either p or q taken separately, but on the truth value of the entire implication
