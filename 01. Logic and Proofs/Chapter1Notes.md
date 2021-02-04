@@ -62,3 +62,12 @@ CS-113 Discrete Structures
 - It is written as p → q
 - The table comes from the idea of lying:
   - p → q is true not based on either p or q taken separately, but on the truth value of the entire implication
+
+#### Examining the Conditional Proposition
+- To build the truth table for p → q
+- Let p stand for “You are good”
+  - That is a proposition
+- Let q stand for “You get a candy bar”
+  - That is also a proposition
+- Then p → q is “If you are good, then you will get a candy bar”
+- To examine the truth value of p → q, we check if p → q is a lie or not based on the truth value of p and q
