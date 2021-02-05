@@ -71,3 +71,44 @@ CS-113 Discrete Structures
   - That is also a proposition
 - Then p → q is “If you are good, then you will get a candy bar”
 - To examine the truth value of p → q, we check if p → q is a lie or not based on the truth value of p and q
+
+#### A Truth Table for the Conditional Proposition
+- Someone says “If you are good, then you will get a candy bar”
+- We want to build a truth table for this
+- Suppose p and q are both true
+  - This means you are good AND you get a candy bar
+  - Is the speaker a liar?  No
+  - Therefore, if p is true and q is true, then p → q is true (It’s not a lie.)
+- Suppose p is true and q is false
+  - This means you are good AND you don’t get a candy bar
+  - Is the speaker a liar?  Definitely!
+  - Therefore, if p is true and q is false, then p → q is false (It’s a lie.)
+- Remember, someone said “If you are good, then you will get a candy bar”
+- Suppose p is false and q is true
+  - This means you are not good AND you get a candy bar
+  - Is the speaker a liar?  No
+  - Therefore, if p is false and q is true, then p → q is true (It’s not is a lie.)
+- Suppose p and q are both false
+  - This means you are not good AND you don’t get a candy bar
+  - Is the speaker a liar?  No
+  - Therefore, if p is false and q is false, then p → q is true (It’s not a lie.)
+
+#### Logical Equivalence
+- When the truth value of two propositions is the same, we say the propositions are logically equivalent
+- We use ≡ to denote logical equivalence
+- Notice that his only looks at the end results, not the steps we take to get them
+  - The steps may be different
+  - One propositions may be much longer than the other
+
+#### Checking Logical Equivalence
+- Is _p_ → _q_ logically equivalent to _p̄_ ∨ _q_?
+
+#### Creating New Propositions from Old Propositions
+- Negation, conjunction, and disjunction are three ways to create new propositions from old ones
+- There are three ways to create a new proposition from a conditional  proposition
+  - The converse.  This is q → p
+  - The inverse.  This is 
+  - The contrapositive.  This is 
+- The contrapositive is logically to the original proposition
+  - Remember that this means they have the same truth value
+  - Both are true or both are false
