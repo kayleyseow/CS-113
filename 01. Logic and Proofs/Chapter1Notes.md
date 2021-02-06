@@ -107,8 +107,8 @@ CS-113 Discrete Structures
 - Negation, conjunction, and disjunction are three ways to create new propositions from old ones
 - There are three ways to create a new proposition from a conditional  proposition
   - The converse.  This is q → p
-  - The inverse.  This is 
-  - The contrapositive.  This is 
+  - The inverse.  This is _p̄_ → _Q_
+  - The contrapositive.  This is _p̄_ → _p̄_
 - The contrapositive is logically to the original proposition
   - Remember that this means they have the same truth value
   - Both are true or both are false
