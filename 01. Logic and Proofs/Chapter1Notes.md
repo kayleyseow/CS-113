@@ -101,14 +101,76 @@ CS-113 Discrete Structures
   - One propositions may be much longer than the other
 
 #### Checking Logical Equivalence
-- Is _p_ → _q_ logically equivalent to _p̄_ ∨ _q_?
+- Is _p_ → _q_ logically equivalent to _~p_ ∨ _q_?
 
 #### Creating New Propositions from Old Propositions
 - Negation, conjunction, and disjunction are three ways to create new propositions from old ones
 - There are three ways to create a new proposition from a conditional  proposition
   - The converse.  This is q → p
-  - The inverse.  This is _p̄_ → _Q_
-  - The contrapositive.  This is _p̄_ → _p̄_
+  - The inverse.  This is _~p_ → _~q_
+  - The contrapositive.  This is _~q_ → _~p_
 - The contrapositive is logically to the original proposition
   - Remember that this means they have the same truth value
   - Both are true or both are false
+
+#### The Biconditional
+- There is still another way to create a new proposition from a conditional
+- This is the biconditional
+- It is written p ↔ q
+- It is a combination of p → q and q → p
+- The biconditional actually means both p → q and q → p
+- We read it as p if and only if q
+  - It is sometimes abbreviated as p iff q
+- Let’s create a truth table for the biconditional
+
+#### A Final Note about AND and OR
+- Checking the truth table for OR shows that
+  - p OR q
+    - If p is true, p OR q = true
+    - If p is false, p OR q = q
+- Similarly, for AND
+  - p AND q
+    - If p is false, p AND q = false
+    - If p is true, p AND q is q
+
+#### Adding Variables to Propositions
+- We will now add variables to propositions
+- We are not really creating anything new
+- This just allows us to put variables into propositions
+  - For example, is “x is even” a proposition?
+    - That, of course, depends on x
+  - How about “2z is even”?
+    - This is a proposition for all integers z
+    - It’s always true
+  - What if I allow non-integers for x and z?
+- There are two many issues because the variables are unclear
+- We have gained a lot of flexibility, though
+
+#### Propositional Functions and the Domain of Discourse
+- A proposition with a variable is called a propositional function
+- A propositional function needs to have restrictions on the variable
+- For example, suppose x is an even number
+  - Then the proposition “x is even” is true
+- Now suppose x can be any integer
+  - Then the proposition “x is even” is only true sometimes
+- So, the list of possible choices is needs to be specified
+  - The list of possible choices is called the domain of discourse
+- The domain of discourse can be specified or implied
+  - It it’s implied, it’s the largest possible set of x for which the propositional function makes sense
+
+#### Back to Propositional Functions
+- We would like to be able to easily say that something is true
+  - for all choices of x   vs.
+  - for some choices of x
+- We call “for all” and “for some” quantifiers
+- The phrase “For all x” is written as ∀ _x_
+  - This is called the universal quantifier
+- The phrase “For some x” is written as ∃ _x_
+  - This is called the existential quantifier
+
+#### The Truth Value of the Quantifiers
+- Think of this as lying or telling the truth
+- The phrase “For all x, P(x)” is true if it’s true for all x
+  - It’s false if there is at least one x that makes it false
+- The phrase “For some x, P(x)” is true if it’s true for at least one x
+  - It’s false if it’s false for all x
