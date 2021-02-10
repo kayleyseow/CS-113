@@ -134,3 +134,16 @@ CS-113 Discrete Structures
 - = (n+1)<sup>2</sup>
 - We have shown what we need to show.  The proof is complete.  
 - Can we prove that 2<sup>0</sup> + 2<sup>1</sup> + 2<sup>2</sup> + … + 2<sup>n</sup> = 2<sup>n+1</sup>-1 using induction?   
+
+#### Two Forms of Mathematical Induction
+- There are actually two forms of induction
+- The weak form uses P(n) to prove P(n+1)
+  - The previous problem used the weak form
+- The strong form usesP(1), P(2), …, P(n) to prove P(n+1)
+- Let’s do Problem 26 on p. 47
+
+#### The Base Step
+- We have to show P(24), that is, we have to show how to get 24 using 5s an7s
+- We can do that using 2 of each
+- Then we do the inductive step
+- We assume we can 
