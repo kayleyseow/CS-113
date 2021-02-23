@@ -94,4 +94,27 @@ CS-113 Discrete Structures
   - Suppose A = {1, 2, 6}
   - Suppose B = {1, 4, 7}
   - Then the union is {1, 2, 4, 6, 7}
-  - We write that as 
+  - We write that as _A_ ∪ _B_ = {1,2,4,6,7}  
+- Another way to combine sets is to form the intersection
+- The intersection of two sets is the set of things that are common to both sets
+- For example:  
+  - Suppose A = {1, 2, 6}
+  - Suppose B = {1, 4, 7}
+  - Then the intersection is {1}
+  - We write that as _A_ ∩ _B_ = {1}
+
+#### Vocabulary
+- If two sets have nothing in common, we say they are disjoint
+  - This means _A_ ∩ _B_ = {}
+- If you have many sets, and each pair has nothing in common, we say the sets are pairwise disjoint
+
+#### Combining Sets Continued
+- There is still another way to combine sets
+- It is the set difference
+- It is the set of all things that are in the first but not in the second
+- An example
+  - Suppose A = {1, 2, 5, 7, 8}
+  - Suppose B = {1, 2, 3}
+  - Then _A_ - _B_ = {5,7,8}
+- Set difference is written with a minus sign
+- A formula: _A_ - _B_ = {_a_ ∈ _A_ | _a_ ∉ _B_}
