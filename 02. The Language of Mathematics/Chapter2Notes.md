@@ -122,35 +122,36 @@ CS-113 Discrete Structures
 #### Drawing Pictures of Sets and Their Relationships
 - To do this, we must decide on a universal set
 - First note, that there is no such thing as “the biggest set”
-- Bertrand Russell discovered some weird things if we move in that direction
-- For example, should we allow a set to belong to itself?
-- This would certainly be bigger than the set itself
-- Following this path leads to all sorts of confusion
+  - Bertrand Russell discovered some weird things if we move in that direction
+  - For example, should we allow a set to belong to itself?
+    - This would certainly be bigger than the set itself
+    - Following this path leads to all sorts of confusion
 - So, a universal set is somewhat artificial
 - We choose it ourselves
 - We don’t always need a universal set; only in some settings
 
 #### Getting Ready to Draw Those Pictures
 - So, we first need to choose a universal set
-- Let’s call it U
+  - Let’s call it U
 - This will be our “biggest set”
 - Then we get a new idea:  the complement of a set
-- It is the set of all things in U that are not in X
+  - It is the set of all things in U that are not in X
 - An example
-- Suppose U = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
-- Suppose A = {1, 2, 6, 7, 8}
-- Then the complement of A, written Ā, is {3, 4, 5, 9 10}
+  - Suppose U = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+  - Suppose A = {1, 2, 6, 7, 8}
+  - Then the complement of A, written Ā, is {3, 4, 5, 9 10}
 
 #### Actually Drawing Those Pictures
 - This picture is called a Venn Diagram
-- We start with something like this
+- We start with something like this:  
+![Picture Drawing](https://cloud-2c0tbtiwy-hack-club-bot.vercel.app/0image.png)
 
 #### An Example
 - Let’s try an example
-- Can we draw the picture for this situation?
-- U = {1, 2, 3, 4, 5, 6, 7,8, 9}
-- A = {1, 2, 3, 5, 7, 9}
-- B = {1, 3, 6, 8}
+  - Can we draw the picture for this situation?
+    - U = {1, 2, 3, 4, 5, 6, 7,8, 9}
+    - A = {1, 2, 3, 5, 7, 9}
+    - B = {1, 3, 6, 8}
 - We can use these pictures to solve problems
 - For example, p. 62, #30
 
@@ -174,37 +175,36 @@ CS-113 Discrete Structures
 - Also, we require that the parts don’t overlap
 - And, we also require that if you put the parts back together, you didn’t leave anything out
 - We call this a partition
-- For example
-- The sets {1, 3, 5} and {2, 4, 6} ARE a partition of {1, 2, 3, 4, 5, 6}
-- The sets {1, 3} and {2, 4, 6} are NOT a partition of {1, 2, 3, 4, 5, 6}
-- The sets {1, 3, 5}, {1, 2}, and {2, 4, 6} are NOT a partition of {1, 2, 3, 4, 5, 6}
+- For example:
+  - The sets {1, 3, 5} and {2, 4, 6} ARE a partition of {1, 2, 3, 4, 5, 6}
+  - The sets {1, 3} and {2, 4, 6} are NOT a partition of {1, 2, 3, 4, 5, 6}
+  - The sets {1, 3, 5}, {1, 2}, and {2, 4, 6} are NOT a partition of {1, 2, 3, 4, 5, 6}
 
 #### Extra Symbols
 - There are some symbols to represent unions and intersections of many sets
-- For example, to denote the union of five sets, A1, A2, A3, A4, and A5, we can write
-
-
+- For example, to denote the union of five sets, A<sub>1</sub>, A<sub>2</sub>, A<sub>3</sub>, A<sub>4</sub>, and A<sub>5</sub>, we can write:  
+![Union of Five Sets](https://cloud-2c0tbtiwy-hack-club-bot.vercel.app/1image.png)    
 - We can do something similar for the intersection 
 
 #### Combining Sets Continued, Again
 - There is still another way to combine sets
 - It is called the Cartesian product
 - If A and B are two sets, the Cartesian product of A and B
-- Is the set of all ordered pairs (x, y) with x in A, y in B
-- Is written A x B
-- Is read as “A cross B”
+  - Is the set of all ordered pairs (x, y) with x in A, y in B
+  - Is written A x B
+  - Is read as “A cross B”
 - Notice that order matters
-- A x B is not the same as B x A
+  - A x B is not the same as B x A
 - If we have three sets, then A x B x C is { (x, y, z) with x in A, y in B, z in C}
 - We call (x, y, z) and ordered triple
 - In general, we can have an ordered n-tuple
 
 #### Some Set Ideas Formally
-- Here are some formal ideas
--  
--  
--  
--  
--  
+- Here are some formal ideas:  
+  - _x_ ∈ _A_ ∩ _B_ → _x_ ∈ _A_ and _x_ ∈ _B_
+  - _x_ ∈ _A_ ∪ _B_ → _x_ ∈ _A_ or _x_ ∈ _B_
+  - _A_ = _B_ → _A_ ⊆ _B_ and _B_ ⊆ _A_
+  - _x_ ∈ _Ā_ → _x_ ∉ _A_  
+  - _A_ ⊆ _B_ → (_x_ ∈ _A_ → _x_ ∈ _B_)  
 - Actually, the arrows should point both ways
 - These are really definitions
