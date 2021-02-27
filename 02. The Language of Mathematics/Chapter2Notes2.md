@@ -12,3 +12,14 @@ CS-113 Discrete Structures
 - Each item in a sequence is called a term
 
 #### Ideas About Sequences
+- If the elements in the sequence satisfy <i>a<sub>i</sub></i> < <i>a<sub>j</sub></i> whenever _i_ < _j_ the sequence is increasing
+  - For example, the sequence 1, 3, 5, 7, 9, 11, … is increasing
+- If the elements in the sequence satisfy <i>a<sub>i</sub></i> > <i>a<sub>j</sub></i> whenever _i_ < _j_ the sequence is decreasing
+  - For example, the sequence 7, 5, 3, 1, … is decreasing
+- Also, if you take some of the terms, it is called a subsequence
+
+#### Combining the Terms
+- If we add the terms of a sequence, we call it a series
+- We can also multiply the terms
+- Then we get a product
+- It may also be infinite or finite
