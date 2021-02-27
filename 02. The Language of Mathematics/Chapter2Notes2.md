@@ -23,3 +23,18 @@ CS-113 Discrete Structures
 - We can also multiply the terms
 - Then we get a product
 - It may also be infinite or finite
+
+#### Notation
+- We will write a series like this:  
+![Summation Equation from i=1 to n for equation ai](https://user-images.githubusercontent.com/47701395/109381040-c02f1e00-788c-11eb-91a9-607d9fde64fa.png)  
+  - This will mean a<sub>1</sub>+ a<sub>2</sub> + a<sub>3</sub> + … + a<sub>n</sub>
+- It’s similar for a product:  
+![Cumulative Product Equation from i=1 to n for equation ai](https://user-images.githubusercontent.com/47701395/109381089-fec4d880-788c-11eb-8b77-1ba869a8e4d2.png)  
+  - This will mean a<sub>1</sub>\*a<sub>2</sub>\*a<sub>3</sub>\*...\*a<sub>n</sub>
+
+#### Checking on the Notation
+- Let’s try #10, 22 on p. 69
+
+#### Recursive Definitions
+- Sequences and series can also be defined recursively
+- For example, p. 69, #44
