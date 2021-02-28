@@ -79,34 +79,34 @@ CS-113 Discrete Structures
 #### Number Systems
 - Our number system is based on 10
 - 8,142 is 8000 + 100 + 40 + 2
-- This is
+- This is 8⋅10<sup>3</sup> + 1⋅10<sup>2</sup> + 4⋅10<sup>1</sup> + 2
 - Notice that our digits go from 0 – 9
-- 9 is 1 less than the base of our number system
+  - 9 is 1 less than the base of our number system
 - Computers live in a base 2 number system
-- That means a number can only have 0 and 1 for digits
-- Base 2 numbers are called binary numbers
+  - That means a number can only have 0 and 1 for digits
+  - Base 2 numbers are called binary numbers
 - Remember, we are not inventing new math here
-- We are only renaming the numbers we already know
+  - We are only renaming the numbers we already know
 
 #### The Need for Other Bases
 - It’s too cumbersome to write numbers in binary
-- For example the base 2 number 10,000,000,000 interpreted as a binary number is 1024
-- This is not good!
+  - For example the base 2 number 10,000,000,000 interpreted as a binary number is 1024
+  - This is not good!
 - So, we group the digits in 4s and call it hexadecimal or hex for short
-- Hexadecimal means base 16
+  - Hexadecimal means base 16
 - This means the digits have to go from 1 to 15, which is 1 less than 16
 - Our decimal numbers only have digits from 1 to 9
-- We need new digits
-- We use A for 10, B for 11, C for 12, D for 13, E for 14, and F for 15
+- We need new digits:  
+  - We use A for 10, B for 11, C for 12, D for 13, E for 14, and F for 15
 
 #### Converting Between Bases
 - It’s not too hard to convert numbers between bases
 - Binary to decimal
 - Method 1:
-- Expand in powers of 2 and add
+  - Expand in powers of 2 and add
 - Method 2:
 - Use nested multiplication
-- Let’s convert 10012 to base 10
+  - Let’s convert 1001<sub>2</sub> to base 10
 
 #### More Conversions
 - Converting binary to hexadecimal
