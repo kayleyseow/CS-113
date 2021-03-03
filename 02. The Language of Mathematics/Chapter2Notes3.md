@@ -26,16 +26,21 @@ CS-113 Discrete Structures
 
 #### Properties of Relations
 - There are four key properties of relations that we need to know
-  - A relation can be reflexive
-- This means that (x, x) is in the relation for all x in the domain
-  - A relation can be symmetric
+- A relation can be reflexive
+  - This means that (x, x) is in the relation for all x in the domain
+- A relation can be symmetric
   - This means that if (x, y) is in the relation then (y, x) is also in the relation
-- What does this say about the domain and range of the relation?
+  - What does this say about the domain and range of the relation?
 - A relation can be transitive
   - This means that if (x, y) and (y, z) are in the relation then (x, z) is also in the relation
 - A relation can be antisymmetric
   - This means that if (x, y) and (y, x) are in the relation, then y ≠ x
   - This is the contrapositive of the book’s definition
+- Important notes about (x, x) pairs:
+  - (x, x) pairs do not mean anything for symmetric and antisymmetric, meaning that they are irrelevant for testing for symmetry, because they are both symmetric and antisymmetric
+  - (x, x) pairs are only useful for testing for reflexive
+  - Relations can either be symmetric or antisymmetric, not both, disregarding (x, x) pairs
+
 
 #### Checking the Definitions
 - Let’s check all four properties on these relations
