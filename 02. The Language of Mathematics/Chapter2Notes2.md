@@ -1,5 +1,6 @@
 ## Chapter 2 Notes: The Language of Mathematics, Part 2
 CS-113 Discrete Structures  
+2/16/2021
 
 #### Sequences
 - A sequence is a list of things
