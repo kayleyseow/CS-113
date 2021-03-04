@@ -1,5 +1,6 @@
 ## Chapter 2 Notes: The Language of Mathematics, Part 3
 CS-113 Discrete Structures  
+2/22/2021
 
 #### Relations
 - A relation is another name for a set of ordered pairs
