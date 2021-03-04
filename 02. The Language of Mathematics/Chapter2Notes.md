@@ -1,5 +1,6 @@
 ## Chapter 2 Notes: The Language of Mathematics
 CS-113 Discrete Structures  
+2/9/2021
 
 #### Sets
 - A set is a collection of objects
