@@ -37,6 +37,53 @@ CS-113 Discrete Structures
 |     %    	|     mod    	|
 |     !    	|     not    	|
 
+#### An Example-Algorithm 3.2.2 on P. 124
+|     C++    	|     Pseudocode    	|
+|-	|-	|
+|         	|         	|
+|     int   max (int a, int b, int c)    	|     procedure   max (a, b, c)    	|
+|     {    	|         	|
+|         x = a;    	|         x := a    	|
+|         if (b>x)    	|         if b > x then    	|
+|             x = b;    	|             x := b    	|
+|         if (c>x)    	|         if c > x then    	|
+|             x = c;    	|             x := c    	|
+|         return x;    	|         return x    	|
+|     }    	|     end   max    	|
+
+#### The Division Algorithm
+- The division algorithm states that
+- For any two integers x and y, where y is not 0, you can find two other integers q (the quotient) and r (the remainder) with  
+  x=qy + r  with 0 ≤ r < y
+- Back in our C++ days, we would have noted that x % y = r     x / y = q
+- Some things to know:
+  - If x divides into y with no remainder, we write x | y
+  - If there is a remainder in the division, we write x ∤ y
+  - Also, if x divides into y with no remainder, we will write that y = kx for some integer k
+    - We also say that there exists an integer k with y = kx
+
+#### Using That Last Idea
+- For example, if 6 divides into a number, then 3 divides into that number
+- Formally, this is  
+  If 6 | n, then 3 | n.
+- Proof:
+  - Suppose that 6 | n.
+  - Then n = 6k for some integer k.
+  - Then n = 3(2k), where 2k is also an integer.
+  - So 3 | n.
+- From now on, assume that all letters stand for integers
+
+#### Three Ideas from the Book
+- This is Theorem 3.3.4, p. 129
+- The theorem has three parts
+- Part 1:  
+  If c | m and c | n, then c | m + n.
+- Part 2:  
+- If c | m and c | n, then c | m – n.
+- Part 3:  
+  If c | m, then c | mn for any n.
+- The proofs of these three statements are very direct
+
 #### Revisiting Recursion
 - We saw recursion in C++
 - A recursive procedure is one that calls itself
@@ -48,6 +95,21 @@ CS-113 Discrete Structures
   8! means 8×7×6×5×4×3×2×1  
   9! means 9×8×7×6×5×4×3×2×1  
   10! means 10×9×8×7×6×5×4×3×2×1  
+
+#### Checking Out the Factorial Function
+- Just like before we notice that the end of 10! is 9!
+  - And the end of 9! is 8!
+    - It looks like 9! is just 9 x 8!
+  - We notice that 8! is just 8 x7! too
+  - And we keep going
+- So, we can say n! = n x (n-1)!
+- We can write
+  ```cpp
+  procedure factorial (n)
+    return n * factorial (n-1)
+  end factorial
+  ```  
+- Here are the other examples that we talked about in C++
 
 #### Another Example: Fibonacci Numbers
 - The Fibonacci Numbers are a list (sequence) of numbers
@@ -67,4 +129,5 @@ CS-113 Discrete Structures
 #### A Third Example: The Towers of Hanoi
 - This problem is not as mathematical as the first two
 - It provides an excellent example of the value of recursion
-- Here is a picture of the towers: (insert pic)
+- Here is a picture of the towers:
+![image](https://user-images.githubusercontent.com/47701395/111052207-f54f7a80-840d-11eb-9755-7d5495e7ef33.png)
