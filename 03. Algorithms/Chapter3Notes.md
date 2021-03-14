@@ -130,4 +130,114 @@ CS-113 Discrete Structures
 - This problem is not as mathematical as the first two
 - It provides an excellent example of the value of recursion
 - Here is a picture of the towers:
-![image](https://user-images.githubusercontent.com/47701395/111052207-f54f7a80-840d-11eb-9755-7d5495e7ef33.png)
+![Diagram of the Towers of Hanoi, at Starting Position](https://user-images.githubusercontent.com/47701395/111052207-f54f7a80-840d-11eb-9755-7d5495e7ef33.png)
+
+#### Moving the Disks
+- There are several disks on each tower
+- In this case, there are four disks
+  - They are colored purple, red, blue, and brown
+- Your job is to move them to the other end
+- This seems simple enough
+
+#### The Rules
+- There are only two rules:  
+  - 1.You can only move one disk at a time
+  - 2.You cannot put a disk on top of a smaller disk
+- This is much harder than it looks!
+
+#### The Solution using Recursion
+- Suppose there are ten disks
+- Then, to move all ten disks to the other end
+  - Move the top nine disks to the middle post
+    - Really, you are just setting aside the top 9 disks
+  - Move the remaining disk to the end post 
+  - Move the nine disks from the middle post to the end post
+    - This puts those disks on top of the disk you just moved
+- Wow!  We have moved the disks
+- Notice that this solution is recursive
+  - Try to see how to do that without recursion
+  - It is really tough
+
+#### Recursion in General
+- Recursion means
+  - You turn the problem into a smaller version of the same problem
+  - Then you call the same function to complete the solution
+- In recursion, a function calls itself
+  - Of course, when it calls itself, it has to be solving a smaller problem
+  - Something likef actorial (n) = factorial (n) is not useful  
+
+#### The Code
+- So the pseudocode is (mostly):  
+  ```cpp
+  procedure move_disks (n, start_pole, end_pole,  spare_pole)
+    move_disks (n-1, start_pole, spare_pole, end_pole)
+    move top disk from start_pole to end_pole
+    move_disks (n-1, spare_pole, end_pole, start_pole)
+  end move_disks
+  ```  
+
+#### A Problem with Recursion
+- Let’s go back to factorials
+- Let’s calculate 3!
+- Using the code, 3! = 3 x 2!  
+                     =3 x (2 x 1!)  
+                     =3 x (2 x (1 x 0!))  
+                     =3 x (2 x (1 x (0 x (-1)!)))  
+- Does this ever stop?  No!
+
+#### A Stopping Point 
+- For recursive code, we always need to include a stopping condition
+- This is called the base case
+- The actual pseudocode for factorials is:  
+  ```cpp
+  procedure factorial (n)
+    if n = 1 then
+      return 1
+    else
+      return n * factorial (n-1)
+  end factorial
+  ```  
+
+#### A Disadvantage of Recursion
+- Recursion is much slower than solving the problem directly
+- However, programming the direct solution might be a lot harder
+- This is a trade-off to consider when using recursion
+  - The usual decision is to use recursion if it’s appropriate
+- Coding the factorial function directly (with a for loop) is easier and more efficient
+  - We always use the direct method when we can
+  - This is called iteration because it uses a loop
+
+#### Factorial vs. Factorial
+- A recursive version:  
+  ```cpp
+  procedure factorial (n)
+    if n = 1 then
+      return 1
+    else
+      return (n * factorial (n-1))
+  end factorial
+  ```  
+- A non-recursive (iterative) version:  
+  ```cpp
+  procedure factorial (n)
+    product = 1
+    for i = 1 to n
+      product = product * i
+    return (product)
+  end factorial
+  ```  
+  
+#### The Fibonacci Sequence
+- The “opposite” of recursion is iteration
+  - Usually this involves a loop
+  - It may involve an array or a stack
+- From before, the Fibonacci sequence was an example of recursion  
+  F<sub>1</sub> = 1, F<sub>2</sub> = 1, F<sub>n</sub> = F<sub>n-1</sub> + F<sub>n-2</sub>
+- This gives a clear demonstration of how recursion can be incredibly inefficient
+- To check this, write out the steps needed to calculate F<sub>4</sub>
+
+#### Checking on how Recursion Works
+- See the examples: 
+  - fib-counts.cpp  (Shows the inefficiency of Fibonacci recursion)
+  - fib-iter.cpp  (Shows reiterative Fibonacci sequence)
+  - fib-recur.cpp  (Typical recursive version of Fibonacci numbers)
