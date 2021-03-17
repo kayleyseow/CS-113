@@ -81,3 +81,46 @@ CS-113 Discrete Structures
 - For future reference
   - z and n are the public keys
   - s is the private key
+
+#### Internet Interlopers
+- Suppose you wanted to spy on the sender and the receiver
+- You know z (which is 15) and n (which is 11)
+  - They were broadcast publicly
+- You see 12 flying by, then 2
+- You have to decode 12s mod 15 and 2s mod 15,  without knowing s
+  - You do, however, know that ns ≡ 1 mod ∅, or 11s ≡ 1 mod ∅
+- Great!  Except you don’t know ∅ either 
+- :( or, “That message is secure”
+
+#### Checking the Algorithm
+- Why does this work?
+- If a is the data to be encrypted, then c = a<sup>n</sup> mod z is sent
+  - We know that this means that c = a<sup>n</sup> + vz for some integer v
+- We need to recover a from c
+- To start, we calculate c<sup>s</sup>, which is c<sup>s</sup> = (a<sup>n</sup> + vz)<sup>s</sup>
+- Let’s expand this by the binomial theorem
+
+#### Fermat's Little Theorem
+- Fermat was a mathematician who lived in the 1600s
+  - He is famous for his “Last Theorem”
+- I will rely on his little theorem
+- It says that
+  - If p is a prime, then a<sup>p</sup> ≡ a (mod p)
+- This is equivalent to a<sup>p-1</sup> ≡ 1 (mod p)
+  - I divided both sides by a
+- I will need this for later
+
+#### A Simplification using Modular Arithmetic
+- Remember that ns mod ∅ = 1
+- This means that ns – 1 = u∅ for some integer u
+- So then, a<sup>ns</sup> = a<sup>u∅ +1</sup> = (a<sup>u∅</sup>)a = a<sup>u(p-1)(q-1)</sup>a
+
+#### Checking the Algorithm - Part 2
+- Expanding (a<sup>n</sup> + vz)<sup>s</sup> by the Binomial Theorem gives 
+  - c<sup>s</sup> = (a<sup>n</sup> + vz)<sup>s</sup> = a<sup>ns</sup> + C<sub>s,1</sub>a<sup>n(s-1)</sup>(vz)<sup>1</sup> + C<sub>s,2</sub>a<sup>n(s-2)</sup>(vz)<sup>2</sup> + … + C<sub>s,s-1</sub>a<sup>n(1)</sup>(vz)<sup>s-1</sup> + C<sub>s,0</sub>(vz)<sup>s</sup>  
+  = a<sup>ns</sup> + (vz)[ ---------]
+  - Notice that vz is a factor of all terms except the first
+  - Also, notice that vz ≡ 0 mod z
+- So, c<sup>s</sup> ≡ a<sup>ns</sup> mod z, and by Fermat’s Little Theorem,
+- a<sup>ns</sup> = a<sup>u(p-1)(q-1)</sup>a ≡ [a<sup>(p-1)</sup>]<sup>(q-1)u</sup> a ≡ 1<sup>(q-1)u</sup> a mod z  
+  ≡ a mod z
