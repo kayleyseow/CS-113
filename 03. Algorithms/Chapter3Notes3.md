@@ -56,12 +56,12 @@ CS-113 Discrete Structures
   - p and q are chosen to have a lot of digits, at least 100
   - For my example, I will use p = 3 and q = 5
   - So z = 15
-- The receiver calculates ∅ = (p – 1)(q – 1)
-  - Here ∅ = (3 – 1) (5 – 1) = 2(4) = 8
-- The receiver chooses a number n with gcd (n, ∅) = 1
+- The receiver calculates Φ = (p – 1)(q – 1)
+  - Here Φ = (3 – 1) (5 – 1) = 2(4) = 8
+- The receiver chooses a number n with gcd (n, Φ) = 1
   - This is often chosen to be a prime
   - I will choose n = 11
-- The receiver then computes s where 0 < s < ∅ with ns mod(%) ∅ = 1
+- The receiver then computes s where 0 < s < Φ with ns mod(%) Φ = 1
   - I will choose s = 3
 - The receiver then publicly broadcasts z and n
 
@@ -88,8 +88,8 @@ CS-113 Discrete Structures
   - They were broadcast publicly
 - You see 12 flying by, then 2
 - You have to decode 12s mod 15 and 2s mod 15,  without knowing s
-  - You do, however, know that ns ≡ 1 mod ∅, or 11s ≡ 1 mod ∅
-- Great!  Except you don’t know ∅ either 
+  - You do, however, know that ns ≡ 1 mod Φ, or 11s ≡ 1 mod Φ
+- Great!  Except you don’t know Φ either 
 - :( or, “That message is secure”
 
 #### Checking the Algorithm
@@ -111,9 +111,9 @@ CS-113 Discrete Structures
 - I will need this for later
 
 #### A Simplification using Modular Arithmetic
-- Remember that ns mod ∅ = 1
-- This means that ns – 1 = u∅ for some integer u
-- So then, a<sup>ns</sup> = a<sup>u∅ +1</sup> = (a<sup>u∅</sup>)a = a<sup>u(p-1)(q-1)</sup>a
+- Remember that ns mod Φ = 1
+- This means that ns – 1 = uΦ for some integer u
+- So then, a<sup>ns</sup> = a<sup>uΦ +1</sup> = (a<sup>uΦ</sup>)a = a<sup>u(p-1)(q-1)</sup>a
 
 #### Checking the Algorithm - Part 2
 - Expanding (a<sup>n</sup> + vz)<sup>s</sup> by the Binomial Theorem gives 
