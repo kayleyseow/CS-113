@@ -83,3 +83,13 @@ CS-113 Discrete Structures
 - The sample space is: 
 - S = { (1,1), (1,2), (1,3), (1,4), (1,5), (1,6), (2,1), (2,2), (2,3), (2,4), (2,5), (2,6), (3,1), (3,2), (3,3), (3,4), (3,5), (3,6), (4,1), (4,2), (4,3), (4,4), (4,5), (4,6, (5,1), (5,2), (5,3), (5,4), (5,5), (5,6), (6,1), (6,2), (6,3), (6,4), (6,5), (6,6)  }
 - This is the standard sample space for rolling a pair of dice
+
+#### Continuing the Problem
+- Here E is the event:
+- The sum on the dice is odd
+- Notice that all sums are between  2 and 12
+- The odd numbers are 3, 5, 7, 9, 11
+- This means E is the set { (1,2), (1,4), (1,6), (2,1), (2,3), (2,5), (3,2), (3,4), (3,6), (4,1), (4,3), (4,5), (5,2), (5,4), (5,6), (6,1), (6,3), (6,5) }
+- |E| = 2 (If the sum = 3) + 4 (Sum = 5) + 6 (Sum = 7) + 4 (Sum = 9) + 2 (Sum = 11) = 18
+- |S| = 36
+- So, then *P*(*E*) = |*E*|/|*S*| = 18/36 = 1/2 = 0.5
