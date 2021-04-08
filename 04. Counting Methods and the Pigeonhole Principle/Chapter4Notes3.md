@@ -79,7 +79,7 @@ CS-113 Discrete Structures
 - Notice that we are assuming that all outcomes are equally likely
   - For example, the 1-4 spinner has four equally sized areas
 
-#### A Problem to Try: P.194, #18
+#### A Problem to Try: P. 194, #18
 - The sample space is: 
 - S = { (1,1), (1,2), (1,3), (1,4), (1,5), (1,6), (2,1), (2,2), (2,3), (2,4), (2,5), (2,6), (3,1), (3,2), (3,3), (3,4), (3,5), (3,6), (4,1), (4,2), (4,3), (4,4), (4,5), (4,6, (5,1), (5,2), (5,3), (5,4), (5,5), (5,6), (6,1), (6,2), (6,3), (6,4), (6,5), (6,6)  }
 - This is the standard sample space for rolling a pair of dice
@@ -93,3 +93,14 @@ CS-113 Discrete Structures
 - |E| = 2 (If the sum = 3) + 4 (Sum = 5) + 6 (Sum = 7) + 4 (Sum = 9) + 2 (Sum = 11) = 18
 - |S| = 36
 - So, then *P*(*E*) = |*E*|/|*S*| = 18/36 = 1/2 = 0.5
+
+#### Another Problem: P. 194, #30
+- I changed the problem from a 10 question test into 16 question test
+- Here, S is a set containing all possible outcomes of the test
+- Each question could be true or false
+- A tree shows us that there are 2<sup>16</sup>, or 65,536 possibilities
+  - If there were only three questions, S would be the set {TTT, TTF, TFT, TFF, FTT, FTF, FFT, FFF}
+  - Remember, only one of those outcomes is correct:  
+    - So, E has only one element
+    - For example, in this case, E could be {TTF}
+- Getting back to the original question, *P*(*E*) = |*E*|/|*S*| = 1/65526, which is 0.0000 to 4 decimal places
