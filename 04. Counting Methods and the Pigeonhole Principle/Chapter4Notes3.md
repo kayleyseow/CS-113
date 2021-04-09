@@ -104,3 +104,4 @@ CS-113 Discrete Structures
     - So, E has only one element
     - For example, in this case, E could be {TTF}
 - Getting back to the original question, *P*(*E*) = |*E*|/|*S*| = 1/65526, which is 0.0000 to 4 decimal places
+
