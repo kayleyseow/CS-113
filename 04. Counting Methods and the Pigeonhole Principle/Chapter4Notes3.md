@@ -105,3 +105,42 @@ CS-113 Discrete Structures
     - For example, in this case, E could be {TTF}
 - Getting back to the original question, *P*(*E*) = |*E*|/|*S*| = 1/65526, which is 0.0000 to 4 decimal places
 
+#### Yet Another Problem: P. 194, #32
+- S is the same as in #30
+- Again, I am assuming there are 16 questions on the test
+- There are 16 elements in E
+- You can see this two ways.
+  - You get only one question right
+  - Then the other 15 must be wrong
+  - There are C(16,15) ways to do that
+  - If you notice that each element of E has one true and 15 falses, you find C(16,1) ways
+##### A Tree Idea
+Suppose the correct answers are all false and you get only one question correct
+- Suppose you get the first question right
+  - Then you have to get the other 15 wrong
+  - This gives one element of E
+  - It’s (F, T, T, …, T)
+- Repeat this thinking:  Suppose you get the second question correct
+  - Then you get the other 15 wrong
+  - Again, this is one element of E
+  - It’s (T,F,T, T, …,  T)
+- Repeating this thinking shows there are 16 possible choices.
+##### The Solution
+- P(Getting only one correct) = 16/2<sup>16</sup> = 16/65536 = 1/4096, or about 0.0002, which is 0.02%
+
+#### A Final Word About Probability
+- Suppose you flip a coin
+  - Then S = {H, T}
+- The probability of getting a head is 0.5
+  - We are assuming a regular, fair coin
+- You repeat this 10 times
+  - You expect 5 heads, 5 tails
+  - You get 6 heads, 4 tails
+- What went wrong?
+
+#### Probability is Approximate. It's an "In the Long Run" Idea
+- This just means you didn’t flip the coin enough times
+- If you flip the coin 1000 times, you will get approximately 500 heads and 500 tails
+- Similarly, if you flip it 10,000 times, you will get approximately 5000 heads and 5000 tails
+- Probability predicts what will happen with many trials
+- You can’t use it directly for a small number of trials
