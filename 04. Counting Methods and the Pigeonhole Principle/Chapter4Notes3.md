@@ -1,5 +1,6 @@
 ## Chapter 4 Notes: Counting Methods and the Pigeonhole Principle
 CS-113 Discrete Structures
+3/29/2021
 
 #### Listing Combinations and Permutations
 - C(n,k) tells the number of ways of choosing k items out of a list of n items
