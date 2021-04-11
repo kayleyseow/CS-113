@@ -1,5 +1,5 @@
 ## Chapter 4 Notes: Counting Methods and the Pigeonhole Principle
-CS-113 Discrete Structures
+CS-113 Discrete Structures  
 3/29/2021
 
 #### Listing Combinations and Permutations
