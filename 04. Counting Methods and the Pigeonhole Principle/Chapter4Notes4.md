@@ -1,5 +1,6 @@
 ## Chapter 4 Notes: Counting Methods and the Pigeonhole Principle
-CS-113 Discrete Structures
+CS-113 Discrete Structures  
+4/12/2021  
 
 #### A Probability Function
 - A Probability Function is a function P(x) from a sample space to [0, 1]
