@@ -24,7 +24,7 @@ CS-113 Discrete Structures
 - These are like the counting shortcuts
   - They allow us to avoid long detailed additions and multiplications
 
-#### Theorem 4.5.5 (Often Called the Completement Rule)
+#### Theorem 4.5.5 (Often Called the Complement Rule)
 - The complement of an event E is the “rest” of the sample space after E is removed
   - I will denote the complement of E as E’
   - In our set notation E’ = S – E, where S is the sample space
@@ -87,7 +87,7 @@ CS-113 Discrete Structures
 - Let’s try #28, 29 on p. 205
 - For example, flipping two coins
   - The two flips are independent of each other
-  - If the first coin come up heads, can you tell what the second will be?
+  - If the first coin comes up heads, can you tell what the second coin will be?
 - If *P*(*E*⋂*F*) = *P*(*E*)*P*(*F*), then E and F are independent
 - *P*(*E*|*F*) = *P*(*E*) is the same test
 - There are two reasons why that is true
