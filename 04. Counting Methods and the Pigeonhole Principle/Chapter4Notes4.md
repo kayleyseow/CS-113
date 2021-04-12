@@ -3,15 +3,43 @@ CS-113 Discrete Structures
 
 #### A Probability Function
 - A Probability Function is a function P(x) from a sample space to [0, 1]
+  - The closed interval from 0 to 1
+  - The numbers must be between 0 and 1
 - We read P(x) as “P of x”
 - This means that 0 ≤ P(x) ≤ 1 for all x in the sample space
 - Also, ![A Probability Function is a function P(x) from a sample space to [0, 1]](https://user-images.githubusercontent.com/47701395/114338709-7cc10400-9b08-11eb-8b52-c1262455341b.png)
+  - ∑*x*∈*S* *P*(*x*) = 1
+  - If we take the sum of all of the probabilities, all of the possible outcomes in this sample space, it is equal to 1
+  - Think of it as a spinner — all of the sections will add up to a whole circle, and their probabilities adding up to a 1
 
 #### Calculating the Probability of Any Event
 - Until now, all elements of the sample space were equally likely
   - That means they had the same chance of happening
 - If E is an event, P(E) = the sum of the probabilities of the outcomes in E
 - Example:  #4 on p. 204
+  - Question Premise: 
+    - Die: numbered 1-6
+    - 2, 4, 6 are equally likely to appear
+    - 1, 3, 5 are equally likely to appear
+    - 1 is three times as likely as 2 is to appear (it is a weighted die)
+    - Assign probabilities to each of 1-6
+  - Translating the Given Information:
+    - P(1) = P(3) = P(5)
+    - P(2) = P(4) = P(6)
+    - P(1) = 3P(2)
+    - P(1) + P(2) + P(3) + P(4) + P(5) + P(6) = 1
+  - Solving:
+    - Let x = P(2)
+    - 3x + x + 3x + x + 3x + x = 1
+      - Using the information given to translate the different probability into terms of x
+    - 12x = 1
+    - x = 1/12
+    - P(2) = P(4) = P(6) = 1/12
+    - P(1) = P(3) = P(5) = 3(1/12) = 3/12 = 1/4  
+- Example:  #6 on p. 204
+  - What is the probability of getting an even number in the setting of Example #4? (P(even) = ?)
+  - 1/12 + 1/12 + 1/12 = 3/12 = 1/4
+    - You need to find the individual probabilities first before calculating, which we got from Example #4
 - Another example:  
   - ![Spinner Pictured](https://user-images.githubusercontent.com/47701395/114338794-ac700c00-9b08-11eb-83e2-8c6f7066ee3f.png)  
   - For the spinner pictured, can you land in the blue? 
