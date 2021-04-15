@@ -173,7 +173,7 @@ CS-113 Discrete Structures
   - One is from the formula for conditional probability; the other is from understanding
 - People often mix up independent and mutually exclusive events; those are two different things
 
-#### The Multiplication RUle for Independent Events — An Example
+#### The Multiplication Rule for Independent Events — An Example
 - The rule from the previous slide says that if E and F are independent events, then
   - P (E AND F) = P (E) P (F)
 - Roll a die
