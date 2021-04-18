@@ -182,3 +182,4 @@ CS-113 Discrete Structures
 - What is P (Odd | Small)?
   - Knowing Small changes P(Odd)
   - So we know that odd and small are not independent
+
