@@ -14,4 +14,6 @@ CS-113 Discrete Structures
   - a<sub>n</sub> = 3+2(n-1)
 - This process is called iteration
 
-####
+#### Problems to Try
+- Try to solve #2 on p. 244 by iteration.  Assume a<sub>0</sub> = 1
+- How about a<sub>0</sub> = 3, a<sub>n</sub> = 2a<sub>n-1</sub> + n?
