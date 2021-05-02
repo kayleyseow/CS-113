@@ -42,4 +42,3 @@ CS-113 Discrete Structures
 - Continuing, we see that
   - a<sub>n</sub> = 3(2<sup>n-1</sup>)
 
-
