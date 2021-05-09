@@ -33,17 +33,17 @@ CS-113 Discrete Structures
 |     Cn<sup>2</sup>    	|     D<sub>1</sub>n<sup>2</sup> +   D<sub>2</sub>n + D<sub>3</sub>    	|     D<sub>1</sub>n<sup>3</sup> +   D<sub>2</sub>n<sup>2</sup> +   D<sub>3</sub>n    	|     D<sub>1</sub>n<sup>4</sup> + D<sub>2</sub>n<sup>3</sup> + D<sub>3</sub>n<sup>2</sup>    	|
 
 #### An Example of a Non-Homogeneous Recurrence Relation
-- Let’s try to solve an = 6an-1 - 8an-2 + 3
-- The homogeneous version of the problem is an = 6an-1 + 8an-2
+- Let’s try to solve a<sub>n</sub> = 6a<sub>n-1</sub> - 8a<sub>n-2</sub> + 3
+- The homogeneous version of the problem is a<sub>n</sub> = 6a<sub>n-1</sub> + 8a<sub>n-2</sub>
   - The characteristic equation is?
   - The roots of the characteristic equation are?
   - The solution to the homogeneous equation is?
 - Stop and solve this part of the problem
-- Let’s try to solve an = 6an-1 – 8an-2 + 3
-- The homogeneous version of the problem is an = 6an-1 – 8an-2
-  - The characteristic equation is x2 – 6x + 8 = 0
+- Let’s try to solve an = a<sub>n</sub> = 6a<sub>n-1</sub> - 8a<sub>n-2</sub> + 3
+- The homogeneous version of the problem is an = 6a<sub>n-1</sub> – 8a<sub>n-2</sub>
+  - The characteristic equation is x<sup>2</sup> – 6x + 8 = 0
   - The roots of the characteristic equation are 2 and 4
-  - The solution to the homogeneous equation is an = R(2n) + S(4n)
+  - The solution to the homogeneous equation is a<sub>n</sub> = R(2<sup>n</sup>) + S(4<sup>n</sup>)
 
 #### An Example of a Homogeneous Recurrence Relation
 - Now, we solve the nonhomogeneous problem
@@ -51,22 +51,22 @@ CS-113 Discrete Structures
 - In order to use the table, we need to know if 1 is a root of the characteristic equation
   - The answer is no, since the roots are 2, 4
 - The table says we should look for a solution to have the form
-  - an = D
+  - a<sub>n</sub> = D
 - Substituting this into the non-homogeneous equation gives
   - D = 6D – 8D + 3
 - Solving this equation gives D = 1
 
 #### Putting it all Together
 - So the solution is
-  - an = R(2n) + S(4n) + 1
+  - a<sub>n</sub> = R(2<sup>n</sup>) + S(4<sup>n</sup>) + 1
 - You have to go through this entire process every time
 - If initial conditions are given, you can determine R and S:
-- Suppose a0 = 4 and a1 = 11
-- Then we have 4 = R(20) + S(40) + 1   and 11 = R(21) + S(41) + 1
-- Solving this system gives R = 1 and S = 2, for the solution to the original problem being an = 2n + 2(4n) + 1
+- Suppose a<sub>0</sub> = 4 and a<sub>1</sub> = 11
+- Then we have 4 = R(2<sup>0</sup>) + S(4<sup>0</sup>) + 1   and 11 = R(2<sup>1</sup>) + S(4<sup>1</sup>) + 1
+- Solving this system gives R = 1 and S = 2, for the solution to the original problem being a<sub>n</sub> = 2<sup>n</sup> + 2(4<sup>n</sup>) + 1
 
 #### A Second Example
-- Let’s try to solve an = 2an-1 + 8an-2 + 81n2
+- Let’s try to solve a<sub>n</sub> = 2a<sub>n-1</sub> + 8a<sub>n-2</sub> + 81n<sup>2</sup>
 - The homogeneous version of the problem is?
 - The characteristic equation is?
 - The roots of the characteristic equation are?
@@ -75,59 +75,60 @@ CS-113 Discrete Structures
 - Stop and solve this part of the problem
 
 #### The Answers
-- The equation is an = 2an-1 + 8an-2 + 81n2
-- The homogeneous version of the problem is an = 2an-1 + 8an-2
-  - The characteristic equation is x2 – 2x – 8 = 0
+- The equation is a<sub>n</sub> = 2a<sub>n-1</sub> + 8a<sub>n-2</sub> + 81n<sup>2</sup>
+- The homogeneous version of the problem is an = 2a<sub>n-1</sub> + 8a<sub>n-2</sub>
+  - The characteristic equation is x<sup>2</sup> – 2x – 8 = 0
   - The roots of the characteristic equation are –2, 4
-  - The solution to the homogeneous equation is an = R(-2)n + S(4n)
-    - f(n) = 81n2
+  - The solution to the homogeneous equation is a<sub>n</sub> = R(-2)<sup>n</sup> + S(4<sup>n</sup>)
+    - f(n) = 81n<sup>2</sup>
 
 #### Continuing On
 - Since 1 is not a root of the characteristic equation, the particular solution has the form
-  - an = D1n2 + D2n + D3
+  - a<sub>n</sub> = D<sub>1</sub>n<sup>2</sup> + D<sub>2</sub>n + D<sub>3</sub>
 - Notice that 
-  - an-1 = D1(n-1)2 + D2(n-1) + D3
-  - an-2 = D1(n-2)2 + D2(n-2) + D3
-- The recurrence relation an = 2an-1 + 8an-2 + 81n2 becomes
-  - D1n2 + D2n + D3 = 2[D1(n-1)2 + D2(n-1) + D3] + 8[D1(n-2)2 + D2(n-2) + D3] + 81n2 
+  - a<sub>n-1</sub> = D<sub>1</sub>(n-1)<sup>2</sup> + D<sub>2</sub>(n-1) + D<sub>3</sub>
+  - a<sub>n-2</sub> = D<sub>1</sub>(n-2)<sup>2</sup> + D<sub>2</sub>(n-2) + D<sub>3</sub>
+- The recurrence relation a<sub>n</sub> = 2a<sub>n-1</sub> + 8a<sub>n-2</sub> + 81n<sup>2</sup> becomes
+  - D<sub>1</sub>n<sup>2</sup> + D<sub>2</sub>n + D<sub>3</sub> = 2[D<sub>1</sub>(n-1)<sup>2</sup> + D<sub>2</sub>(n-1) + D<sub>3</sub>] + 8[D<sub>1</sub>(n-2)<sup>2</sup> + D<sub>2</sub>(n-2) + D<sub>3</sub>] + 81n<sup>2</sup> 
 
 #### Finding the Constants-Part 1
 - We have
-  - D1n2 + D2n + D3 = 2[D1(n-1)2 + D2(n-1) + D3] + 8[D1(n-2)2 + D2(n-2) + D3] + 81n2 
+  - D<sub>1</sub>n<sup>2</sup> + D<sub>2</sub>n + D<sub>3</sub> = 2[D<sub>1</sub>(n-1)<sup>2</sup> + D<sub>2</sub>(n-1) + D<sub>3</sub>] + 8[D<sub>1</sub>(n-2)<sup>2</sup> + D<sub>2</sub>(n-2) + D<sub>3</sub>] + 81n<sup>2</sup> 
 - Expanding powers of n gives
-  - D1n2 + D2n + D3 = 2D1(n2-2n+1) + 2D1D2(n-1) + 2D1D3 + 8D1(n2-4n+4) + D2(n-2) + D3 + 81n2 
+  - D<sub>1</sub>n<sup>2</sup> + D<sub>2</sub>n + D<sub>3</sub> = 2D<sub>1</sub>(n<sup>2</sup>-2n+1) + 2D<sub>1</sub>D<sub>2</sub>(n-1) + 2D<sub>1</sub>D<sub>3</sub> + 8D<sub>1</sub>(n<sup>2</sup>-4n+4) + D<sub>2</sub>(n-2) + D<sub>3</sub> + 81n<sup>2</sup> 
 - Distributing and grouping based on powers of n gives
-  - (–9D1 – 81)n2 + (36D1 – 9D2)n + (34D1 + 18D2 – 9D3) = 0
+  - (–9D<sub>1</sub> – 81)n<sup>2</sup> + (36D<sub>1</sub> – 9D<sub>2</sub>)n + (34D<sub>1</sub> + 18D<sub>2</sub> – 9D<sub>3</sub>) = 0
 - Since this must be true for all n, we have three separate equations
-  - (–9D1 – 81) = 0
-  - (36D1 – 9D2) = 0
-  - (34D1 + 18D2 – 9D3) = 0
+  - (–9D<sub>1</sub> – 81) = 0
+  - (36D<sub>1</sub> – 9D<sub>2</sub>) = 0
+  - (34D<sub>1</sub> + 18D<sub>2</sub> – 9D<sub>3</sub>) = 0
 
 #### Finishing the Problem-Part 2
-- Solving the first equation gives D1 = –9
-- Substituting that into the second equation and solving gives D2 = –36
-- Substituting both D1 and D2 into the third equation and solving gives D3 = –38
-- So the particular solution is an = –9n2 – 36n – 38
+- Solving the first equation gives D<sub>1</sub> = –9
+- Substituting that into the second equation and solving gives D<sub>2</sub> = –36
+- Substituting both D<sub>1</sub> and D<sub>2</sub> into the third equation and solving gives D<sub>3</sub> = –38
+- So the particular solution is a<sub>n</sub> = –9n<sup>2</sup> – 36n – 38
 - The solution to the original recurrence relation is:  
-  - an = R(-2)n + S(4n) – 9n2 – 36n – 38
+  - a<sub>n</sub> = R(-2)<sup>n</sup> + S(4<sup>n</sup>) – 9n<sup>2</sup> – 36n – 38
 
 #### A Problem to Try
-- Solving the first equation gives D1 = –9
-- Substituting that into the second equation and solving gives D2 = –36
-- Substituting both D1 and D2 into the third equation and solving gives D3 = –38
-- So the particular solution is an = –9n2 – 36n – 38
-- The solution to the original recurrence relation is
-- an = R(-2)n + S(4n) – 9n2 – 36n – 38
+- a<sub>n</sub> = 4a<sub>n-1</sub> – 3a<sub>n-2</sub> + 20
+- The homogeneous version of the problem is?
+- The characteristic equation is?
+- The roots of the characteristic equation are?
+- The solution to the homogeneous equation is?
+- See if you can also determine what f(n) is
+- Stop and solve this part of the problem
 
 #### Finishing the Problem
 - You can see that 1 is a root of the characteristic equation
-- This means the particular solution has the form an = Dn
+- This means the particular solution has the form a<sub>n</sub> = Dn
 - Then 
-  - an-1 = D(n-1) = Dn – D and an-2 = D(n-2) = Dn – 2D
-- We need to solve an = 4an-1 – 3an-2 + 20
+  - a<sub>n-1</sub> = D(n-1) = Dn – D and a<sub>n-2</sub> = D(n-2) = Dn – 2D
+- We need to solve a<sub>n</sub> = 4a<sub>n-1</sub> – 3a<sub>n-2</sub> + 20
   - Dn = 4Dn – 4D – 3Dn + 6D + 20
 - Continuing to solve gives the particular solution of
-  - an = –10n
+  - a<sub>n</sub> = –10n
 - For the full solution, find the general solution, and add –10n
 
 #### The Halting Problem
