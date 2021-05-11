@@ -14,7 +14,6 @@ CS-113 Discrete Structures
 - Let’s pretend that apple pie is one big word applepie
 - The number of letters there is 8
 - Let me number the letters:  
-
   | 1 	| 2 	| 3 	| 4 	| 5 	| 6 	| 7 	| 8 	|
   |-	|-	|-	|-	|-	|-	|-	|-	|
   | A 	| P 	| P 	| L 	| E 	| P 	| I 	| E 	|  
