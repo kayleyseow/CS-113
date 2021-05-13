@@ -39,5 +39,17 @@ CS-113 Discrete Structures
 - Then, for the remaining letters, we have 3! ways of doing that
 
 #### Calculating the Answer
-- So the calculation for the answer is  
+- So the calculation for the answer is:  
 ![Calculation for the Words That Can Be Made From the Letters in the Words Apple Pie](https://user-images.githubusercontent.com/47701395/117908252-004b4d80-b28d-11eb-8e2a-89a9f140c89d.png)
+
+#### Geeneralizing the Formula
+- Suppose S is a set containing:  
+  n<sub>1</sub> identical items of type 1  
+  n<sub>2</sub> identical items of type 2  
+  .  
+  .  
+  .  
+  n<sub>t</sub> identical items of type t  
+- Suppose n is the number of items in S  
+- Then the number of orderings of S is:  
+![Generalized Formula for the Number of Words in a Word](https://user-images.githubusercontent.com/47701395/118075413-cfd6e280-b364-11eb-8a85-0c0d8d81abb4.png)
