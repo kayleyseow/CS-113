@@ -53,3 +53,15 @@ CS-113 Discrete Structures
 - Suppose n is the number of items in S  
 - Then the number of orderings of S is:  
 ![Generalized Formula for the Number of Words in a Word](https://user-images.githubusercontent.com/47701395/118075413-cfd6e280-b364-11eb-8a85-0c0d8d81abb4.png)
+
+#### More Generalized Combinations
+- Now, suppose we have a set containing t elements
+- We want to choose k-element subsets with repetition
+- We want to know how many there are
+- Then the number of combinations is C (k+t-1, k)
+- Proof:
+  - Suppose the set is {a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>t<sub>}
+  - Create a row with k+t-1 slots
+- Put k x’s and t-1 bars in the slots; x represents something; a bar represents a divider
+- X’s up to first bar are a1s, etc.
+- There are C(k+t-1) choices for the bars
