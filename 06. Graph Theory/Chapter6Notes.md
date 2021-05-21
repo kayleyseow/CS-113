@@ -48,3 +48,82 @@ CS-113 Discrete Structures
 - This is the connection to graphs
   - The holes are vertices
   - Thee graph is made up of edges connecting each pair of holes
+
+#### Erdös Numbers
+- Paul Erdös was a mathematician
+- His Erdös number is 0
+- If you wrote a paper with him, your Erdös number would be 1
+- If you wrote a paper with someone who wrote a paper with him, your Erdös number would be 2
+- This continues
+
+#### Connecting Erdös Numbers to Graphs
+- This is the connection to graphs
+  - Erdös is one vertex in the graph
+  - People who wrote papers with him are connected to him
+  - People who wrote papers with those people are connected to them
+- The process continues
+
+#### Similarity Graphs
+- We want to know how complicated a program is
+- We need some criteria
+- For example, we could use
+  - The number of lines
+  - The number of calls to methods
+  - The number of return statements
+
+#### Are Two Programs Similar?
+- We can then tell if two programs are similar
+- Let’s call s the dissimilarity function
+  - S(P1, P2) = |L2-L1| + |M2-M1| + |R2-R1|
+- This is the connection to graphs
+  - Each program is a vertex
+  - We connect programs that have the same similarity
+  - This graph may be quite disconnected
+
+#### The Knight's Tour
+- A knight is a chess piece
+- It has a specific L-shaped move
+- Chess boards are 8 × 8
+  - We will allow any size, but the board must be square
+- Can we place the knight somewhere so that it can, in successive moves, visit every square on the board?
+- We want to know which sizes of boards allow this kind of knight’s tour
+
+#### Connecting the Knight's Tour to Graph Theory
+- This is the connection to graphs
+  - The squares are vertices
+  - Edges are added if the knight can move from one square (vertex) to another square (vertex)
+
+#### Paths
+- A **path** connects two vertices
+  - It is nothing more than a list of the edges in the path
+- There are many special types of paths
+  - One type of path is a **cycle**
+  - A cycle starts and ends at the same point
+  - We usually don’t allow a cycle to repeat an edge
+- Two important kinds are of cycles are
+  - Euler cycles
+  - Hamiltonian cycles
+
+#### Connected Graphs
+- Often, I will assume the graph comes in one piece
+- We call this kind of graph **connected**
+- You can adapt most of what I do to graphs that are not connected
+  - Just apply it to each piece
+  - Those pieces are called **components**
+
+#### Euler Cycles
+- An **Euler cycle** is a path that traverses each edge exactly once
+  - No edges are omitted
+  - No edge is traversed twice (or more!)
+- Not every graph has an Euler cycle
+  - The Königsburg Bridge graph doesn’t
+
+#### Finding an Euler Cycle
+- If a graph has an Euler cycle, every vertex has an even number of edges incident on it
+- Interestingly, the reverse is true also
+  - If in a (connected) graph every vertex has an even number of edges incident on it, then the graph has an Euler cycle
+
+#### Hamiltonian Cycles
+- A **Hamiltonian cycle** is a path that
+- Starts and ends at the same place
+- Visits every vertex exactly once
