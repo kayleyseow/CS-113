@@ -113,3 +113,117 @@ CS-113 Discrete Structures
 - We write this as K<sub>m</sub>,<sub>n</sub>
   - m is the number of vertices in one vertex set
   - n is the number of vertices in the other
+
+#### A Subgraph
+- Start with a graph
+- Choose some edges from the original graph
+- Choose *all* vertices incident on those edges
+  - This restriction is so the subgraph is actually a graph
+- This is a **subgraph** of the original graph
+
+#### A Connected Graph
+- A graph is **connected** if there is a path between every pair of vertices
+- The graph on the left is connected; the one on the right is not  
+![A Connected Graph](https://user-images.githubusercontent.com/47701395/119271146-24742c00-bbb5-11eb-87ec-1710712cef37.png)![An Unconnected Graph](https://user-images.githubusercontent.com/47701395/119271147-26d68600-bbb5-11eb-97d9-7c326ab58995.png)
+- The graph on the right has two **components**
+
+#### The Degree of a Vertex
+- The **degree of a vertex** is the number of edges that are incident on the edge
+- Special case
+  - If there is a loop, this adds 2 to the degree instead of 1
+
+#### The Königsberg Bridges Again
+- **Euler Cycles**
+  - An Euler cycle is a cycle that contains all edges and all vertices
+- Theorem 6.2.17
+  - If a graph has an Euler cycle, then every vertex has even degree
+- So the Königsberg has no Euler cycle
+- The converse is also true (Theorem 6.2.18)
+  - If a graph is connected and every vertex has even degree, then the graph has an Euler cycle
+
+#### Proof of Theorem 6.2.18
+- The Theorem is
+  - If a graph is connected and every vertex has even degree, then the graph has an Euler cycle
+- The proof will be induction on the number of edges
+- Suppose G has 1 edge and every vertex has even degree
+  - What can G look like?
+- Suppose G has 2 edges, is connected, and every vertex has even degree
+  - What can G look like?
+  - We don’t actually need this second case, but it makes us familiar with the theorem
+
+#### Theorem 6.2.18
+- The inductive step is
+  - Assume that any connected graph with fewer than n edges and even degree for every vertex has an Euler cycle
+  - Show that any connected graph with n edges and even degree for every vertex has an Euler cycle
+- So now assume that G is connected and it has at least two edges
+  - The induction hypothesis is that any connected graph with fewer than n edges and ever vertex having even degree has an Euler cycle
+- Since G has at least two edges it contains a picture like this:  
+![Graph of G](https://user-images.githubusercontent.com/47701395/119274109-2d6bfa00-bbc3-11eb-8b99-68ae2b38adc7.png)  
+- We create a new graph by changing that picture to:  
+![Graph of H](https://user-images.githubusercontent.com/47701395/119274170-76bc4980-bbc3-11eb-9d7f-d83932fc44e6.png)
+- Call the new graph H
+
+#### Continuing the Proof of the Theorem
+- How is H different from G?
+  - What did we do the number of vertices?
+  - What did we do to the number of edges?
+  - What did we do the degrees of vertices in H?
+- l show that H has 1 or 2 connected components
+- Let v be any vertex in G except v<sub>1</sub>
+- Since G is connected, there is a path in G from v to v<sub>1</sub>
+- Let P<sub>1</sub> be the part of the path that has its edges in H
+- P1 must end at v<sub>1</sub>, v<sub>2</sub>, or v<sub>3</sub> in G
+- There are three possibilities for the path in H
+  - If it ends at v<sub>1</sub>, then, v is in v<sub>1</sub>‘s component
+  - If it ends at v<sub>2</sub>, then, v is in v<sub>2</sub>‘s component
+    - This is also true if v was chosen to be v2 and the path in G was v<sub>2</sub>-v<sub>1</sub>
+  - If it ends at v<sub>3</sub>, then, v is in v<sub>3</sub>‘s component , which is the same as v1‘s component
+- This shows that H every vertex in H is in either in v<sub>1</sub> or v<sub>2</sub>’s component
+- So H has either one or two components
+
+#### Finishing the Proof of the Theorem
+- If H has one component, then it has an Euler cycle
+  - Why is that?
+- So, then G has essentially that same Euler cycle
+  - We change the new edge back to its original two edges
+- If H has two components, each has an Euler cycle
+  - We can assume the first starts and ends at v<sub>1</sub>
+  - We can also assume the second starts and ends at v<sub>2</sub>
+  - We modify it by changing (v<sub>1</sub>, v<sub>3</sub>) to (v<sub>1</sub>, v<sub>2</sub>) (v<sub>2</sub>, v<sub>3</sub>) 
+- Either way, we get an Euler cycle in G
+
+#### An Interesting Idea
+- **Theorem:** In a graph with m edges and n vertices, the sum of the degrees of the vertices is 2m
+  - This is easy to see since each edge is counted twice
+  - It’s counted for each vertex it has
+- **Corollary:** A connected graph has an even number of vertices of odd degree
+  - Break the vertices into two sets
+    - Even degree vertices, odd degree vertices
+  - Sum the degrees of the odd vertices
+  - The sum is even (by the theorem) so the sum of the degrees of the odd vertices must be even too
+
+#### Dominoes
+- Here is a picture of a domino:  
+![A Picture of a Domino](https://user-images.githubusercontent.com/47701395/119274806-a0c33b00-bbc6-11eb-9daa-370673834beb.png)
+- Each side can have 0-6 dots
+- Suppose a set of dominoes contains all 49 dominoes
+- Question:  Can we arrange the dominoes in a circle so that adjacent dominoes have the same number of dots?
+- To get the graph
+  - The numbers 0, …, 6 are the vertices
+  - The edges are “the dominoes”
+    - There is an edge between every pair of vertices and a loop at each vertex
+
+#### The Domino Circle
+- What is the degree of each vertex?
+- Also notice that the graph is connected
+- The theorem guarantees that there is an Euler cycle
+- That shows how to arrange the dominoes in a circle
+
+#### Representations of Graphs in Software
+- A graph can be represented by
+  - An adjacency matrix
+  - An incidence matrix
+  - A linked list of vertices, with other linked lists showing the edges
+
+#### A Program To Find the Shortest Path in a Graph
+- Let’s look at the program
