@@ -38,5 +38,35 @@ CS-113 Discrete Structures
   ```
 - and the program creates a graph Graph Fig6_p136;
 
+#### Part 1 Programming-The Create_Graph Function
+- Create three `create_graph` functions, one for each graph listed below 
+  - p. 274, Figure 6.2.1.  p. 301, G2 in Fig 6.6.1.  p. 282, #39
+- You should name the functions `create_graph_p274_Fig6_2_1`, etc.
+- The `create_graph` functions should look like this:  
+  ```cpp  
+  create_graph_Fig6_p136(graph gr)
+  {
+      gr.num_verts = 10;
+      init_adj_matx (gr);
+      add_edge (gr, 0, 2);
+      add_edge (gr, 2, 0);
+      add_edge (gr, 1, 7);
+      add_edge (gr, 7, 1);
+  }
+  ```
+- Change the `add_edge()` calls to whatever your graph requires
+
+#### Code to Initialize a Two-Dimensional Array
+- Assume `Fig6_p136.num_verts` has been set to some value
+- The code to initialize every element in the array to 0 is:  
+  ```cpp  
+  for (int row=0;  row< Fig6_p136.num_verts;  row++)
+  {
+    for (int col=0;  col< Fig6_p136.num_verts;  col++)
+    {
+      Fig6_p136.adj_matx [row]  [col] = 0;
+    }
+  }
+  ```
 
   
