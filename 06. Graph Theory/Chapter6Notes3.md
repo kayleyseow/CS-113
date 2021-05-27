@@ -113,3 +113,17 @@ CS-113 Discrete Structures
 - Double check with the pictures to make sure your code is correct!
 - Your edge list should match the edge list found from the picture
 - If they match, you have finished Part 1
+
+#### Part 2-Modify the Program so That It Calculates the Shortest Path
+- Create a struct that represents a vertex
+- The struct (call it Vertex) should contain: 
+  - an `int` containing the length of the shortest path to the vertex
+  - an `int` containing the number of the previous vertex in the shortest path
+  - a boolean to indicate whether or not this vertex was visited
+- Now create an array of Vertex structs
+  - Dimensioning the array to 20 will be adequate
+- Create an array of unvisited vertices
+  - This array will be an `int` array
+  - You can also dimension this to 20
+- You will also have to create two indices into this array
+  - Name them back and front
