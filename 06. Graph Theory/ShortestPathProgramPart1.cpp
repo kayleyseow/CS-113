@@ -9,7 +9,6 @@ struct Graph
 };
 
 // Function prototypes
-void unvisited_vertices(Graph gr, list<int> unvis_verts);
 void init_adj_matx(Graph& gr);
 void add_edge(Graph& gr, int vertex1, int vertex2);
 void print_graph(Graph gr);
