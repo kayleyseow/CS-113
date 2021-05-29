@@ -127,3 +127,12 @@ CS-113 Discrete Structures
   - You can also dimension this to 20
 - You will also have to create two indices into this array
   - Name them back and front
+
+#### Part 2
+- To implement the shortest path algorithm
+- You should create a function:
+  - `void find_shortest_path (graph gr, int start_vert, int end_vert)`
+- An example of the algorithm for the function will be given in class.
+- USING ANY ALGORITHM OTHER THAN THE ONE DESCRIBED IN CLASS WILL RESULT IN A ZERO GRADE FOR THIS ASSIGNMENT
+- What follows is pseudocode
+- A lot of it looks like code, but you will have to convert it to actual C++
