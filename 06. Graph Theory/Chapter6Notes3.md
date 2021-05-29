@@ -136,3 +136,59 @@ CS-113 Discrete Structures
 - USING ANY ALGORITHM OTHER THAN THE ONE DESCRIBED IN CLASS WILL RESULT IN A ZERO GRADE FOR THIS ASSIGNMENT
 - What follows is pseudocode
 - A lot of it looks like code, but you will have to convert it to actual C++
+
+#### Part 2-Initialization
+``` cpp  
+// Initialization  
+front = 0;
+back = 1;
+done = false;
+Set all vertices as unvisited
+Mark start_vertex as visited
+Set the predecessor of start_vertex to –1 (a value indicating no predecessor)
+Set the length of the path for start_vertex to 0
+```
+
+#### Part 2-The Algorithm
+```cpp  
+Add start_vertex to unvisited vertex list
+while (!done && unvisited vertex list is not empty)
+{
+  front_vertex = front vertex from unvisited vertex list
+  while (!done && front_vertex has an unvisited neighbor)
+  {
+    next_neighbor = next neighbor of front_vertex
+    if (next_neighbor is not visited)
+    {
+      Mark next_neighbor as visited
+      Set the path length of next_neighbor to 1 + front_vertex's path length
+      Set the predecessor of next_neighbor to front_vertex
+      Add next_neighbor to back of unvisited vertex list
+    }
+  }
+}
+```  
+
+#### Part 2-Condition to Continue
+```cpp  
+    if (next_neighbor = end_vertex)
+    {
+      done = true;
+    }
+```
+
+#### Part 2-Get Shortest Path From Array
+```cpp  
+// Traversal is complete; add vertices to shortest path array
+shortest_path [0] = end_vertex;
+posn = 0;
+while (vertex has a predecessor)
+  vertex = predecessor of vertex;
+  posn++;
+  shortest_path [posn] = vertex;
+```
+
+#### Part 2-Print Path
+- `//  Print path`
+- Print vertices, from `shortest_path [posn]` down to `shortest_path [0]`
+- Note:  The vertices are in reverse order
