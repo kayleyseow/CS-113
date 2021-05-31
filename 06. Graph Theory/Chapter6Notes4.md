@@ -1,4 +1,4 @@
-## Chapter 6 Notes: Graph Theory (Shortest Path Program)
+## Chapter 6 Notes: Graph Theory  
 CS-113 Discrete Structures  
 5/27/2021
 
