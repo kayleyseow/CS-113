@@ -79,4 +79,44 @@ CS-113 Discrete Structures
 - This definition is recursive?
 
 #### Creating a Circuit From a Boolean Expression
+- To do this, you first work with what’s inside parentheses, and then work outward
+- Suppose the expression is Y1 = X1 OR(X2 AND X3)
+- We draw the circuit
+- Start with X2 AND X3: ![X2 and X3](https://user-images.githubusercontent.com/47701395/121275612-fb74bc00-c881-11eb-991a-e7fb5314c050.png)
+- Then connect in X1 or <that result>  
+![Connect in X1 or <that result>](https://user-images.githubusercontent.com/47701395/121275626-00d20680-c882-11eb-8e50-3fdf36359078.png)  
 
+#### Switching Circuits
+- A switching circuit is a circuit made only of switches
+- I will usually add a light bulb and a battery to show the point of the circuit
+  - We do not draw these in an actual circuit
+- In a switching circuit
+  - You can use a letter more than once
+    - But, if you use A in two different places, that means those two switches move together
+    - And, if you use A and -A, that means those two switches move oppositely
+- Do #25, p. 422
+
+#### Equivalent Circuits
+- Equivalent circuits are circuits where the same input values give the same outputs
+- An example is   (X1 OR X2) AND X3   and   (X1 AND X2) OR X3
+- Are these two circuits equivalent?
+
+#### Laws of Circuits-Part 1
+- Associative laws
+  - (a OR b) OR c = a OR (b OR c)
+  - (a AND? b) AND c = a AND (b AND c)
+- Commutative Laws
+  - a OR b = b OR a
+  - a AND b = b AND a
+- Distributive Laws
+  - a AND (b OR c) = (a AND b) OR (a AND c)
+  - a OR (b AND c) = (a OR b) AND (a OR c)
+
+#### Laws of Circuits-Part 2
+- Identity Laws
+  - x OR 0 = x
+  - x AND 1 = x
+  - The identity laws are quite useful in assembly language programming
+- Complement Laws
+  - x OR x’ = 1
+  - x AND (x’) = 0
