@@ -1,5 +1,6 @@
 ## Chapter 6 Notes: Graph Theory  
 CS-113 Discrete Structures  
+5/6/2021  
 
 #### Vocabulary to Know
 - **Vertex**
