@@ -1,5 +1,6 @@
 ## Chapter 5 Notes: Recurrence Relations
 CS-113 Discrete Structures  
+4/27/2021  
 
 #### Variation 1: The Characteristic Polynomial has High Degree
 - We only solved problems with a quadratic characteristic polynomial
