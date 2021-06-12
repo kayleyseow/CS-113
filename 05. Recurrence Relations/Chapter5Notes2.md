@@ -1,5 +1,6 @@
 ## Chapter 5 Notes: Recurrence Relations
 CS-113 Discrete Structures  
+4/20/2021  
 
 #### Solving a Recurrence Relation
 - Solving a recurrence relation means to put it into closed form
