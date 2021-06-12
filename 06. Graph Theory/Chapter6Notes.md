@@ -1,5 +1,6 @@
 ## Chapter 6 Notes: Graph Theory (Applications)
 CS-113 Discrete Structures  
+5/6/2021  
 
 #### Applications of Graphs
 - There are lots of ideas that come from or lead to applications of graphs
