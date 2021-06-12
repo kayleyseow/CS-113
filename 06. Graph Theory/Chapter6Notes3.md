@@ -1,5 +1,6 @@
 ## Chapter 6 Notes: Graph Theory (Shortest Path Program)
 CS-113 Discrete Structures  
+5/13/2021  
 
 #### A Programming Project
 - The goal is to create a program that finds the shortest path between two vertices in a graph
