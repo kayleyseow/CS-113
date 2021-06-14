@@ -23,3 +23,4 @@ CS-113 Discrete Structures
 - _X_ ⊆ _Y_: _X_ is a subset of _Y_
 - P(_X_): power set of _X_ (all subsets of _X_)
 - _X_ ⋃ _Y_: _X_ union _Y_
+
