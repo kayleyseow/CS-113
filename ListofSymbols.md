@@ -43,3 +43,11 @@ CS-113 Discrete Structures
 - _R_<sub>2</sub> ∘ _R_<sub>1</sub>: composition of relations
 - _x_ ≼ _y_: _xRy_ 
 
+#### Functions
+- _f_(_x_): value assigned to _x_
+- _f_: _X_ → _Y_: function from _X_ to _Y_
+- _f_ ∘ _g_: composition of _f_ and _g_
+- _f_<sup>-1</sup>: inverse function (all (_y_, _x_) with (_x_, _y_) in _f_)
+- _f_(_n_) = _Ο_(_g_(_n_)): |_f_(_n_)| ≤ _C_|_g_(_n_)| for _n_ sufficiently large
+- _f_(_n_) = _Ω_(_g_(_n_)): _c_|_g_(_n_)| ≤ |_f_(_n_)| for _n_ sufficiently large
+- _f_(_n_) = _Θ_(_g_(_n_)): _c_|_g_(_n_)| ≤ |_f_(_n_)| ≤ _C_|_g_(_n_)| for _n_ sufficiently large
