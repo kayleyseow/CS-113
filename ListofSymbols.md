@@ -36,3 +36,10 @@ CS-113 Discrete Structures
 - (_x_<sub>1</sub>, ... , _x_<sub>_n_</sub>): _n_-tuple
 - _X_ × _Y_: Cartesian product of _X_ and _Y_ [pairs (_x_, _y_) with _x_ in _X_ and _y_ in _Y_]
 
+#### Relations
+- _xRy_: (_x_, _y_) is in _R_ (_x_ is related to _y_ by the relation _R_)
+- [_x_]: equivalence class containing _x_
+- _R_<sup>-1</sup>: inverse relation (all (y, x) with (x, y) in _R_)
+- _R_<sub>2</sub> ∘ _R_<sub>1</sub>: composition of relations
+- _x_ ≼ _y_: _xRy_ 
+
