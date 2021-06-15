@@ -22,5 +22,17 @@ CS-113 Discrete Structures
 - ∅: empty set
 - _X_ ⊆ _Y_: _X_ is a subset of _Y_
 - P(_X_): power set of _X_ (all subsets of _X_)
-- _X_ ⋃ _Y_: _X_ union _Y_
+- _X_ ⋃ _Y_: _X_ union _Y_ (all elements in _X_ or _Y_)
+- _i_ = 1 ⋃ _n_ _X_<sub>_i_</sub>: union of _X_<sub>1</sub>, ... , _X_<sub>n</sub> (All elements that belong to at least one of _X_<sub>1</sub>, _X_<sub>2</sub>, ... , _X_<sub>_n_</sub>)
+- _i_ = ∞ ⋃ _n_ _X_<sub>_i_</sub>: union of _X_<sub>1</sub>, _X_<sub>2</sub>, ... , (All elements that belong to at least one of _X_<sub>1</sub>, _X_<sub>2</sub>, ...)
+- ⋃ _S_: union of _S_ (all elements that belong to at least one set in _S_)
+- _X_ ∩ _Y_: _X_ intersect _Y_ (all elements in _X_ and _Y_)
+- _i_ = 1 ∩ _n_ _X_<sub>_i_</sub>: intersection of _X_<sub>1</sub>, ... , _X_<sub>n</sub> (All elements that belong to every one of _X_<sub>1</sub>, _X_<sub>2</sub>, ... , _X_<sub>_n_</sub>)
+- _i_ = ∞ ∩ _n_ _X_<sub>_i_</sub>: intersection of _X_<sub>1</sub>, _X_<sub>2</sub>, ... , (All elements that belong to every one of _X_<sub>1</sub>, _X_<sub>2</sub>, ...)
+- ∩ _S_: intersection of _S_ (all elements that belong to at every set in _S_)
+- _X_ - _Y_: set difference (all elements in _X_ but not in _Y_)
+- _X̄_: complement of _X_ (all elements not in _X_)
+- (_x_, _y_): ordered pair
+- (_x_<sub>1</sub>, ... , _x_<sub>_n_</sub>): _n_-tuple
+- _X_ × _Y_: Cartesian product of _X_ and _Y_ [pairs (_x_, _y_) with _x_ in _X_ and _y_ in _Y_]
 
