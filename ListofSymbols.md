@@ -69,3 +69,7 @@ CS-113 Discrete Structures
 - _C_<sub>_ij_</sub>: capacity of edge (_i_, _j_)
 - (_P_, _P̄_): cut in a network
 
+#### Probability
+- _P_(_x_): probability of outcome _x_
+- _P_(_E_): probability of event _E_
+- _P_(_E_|_F_): conditional probability of _E_ given _F_[_P_(_E_ ∩ _F_)/_P_(_F_)]
