@@ -51,3 +51,8 @@ CS-113 Discrete Structures
 - _f_(_n_) = _Ο_(_g_(_n_)): |_f_(_n_)| ≤ _C_|_g_(_n_)| for _n_ sufficiently large
 - _f_(_n_) = _Ω_(_g_(_n_)): _c_|_g_(_n_)| ≤ |_f_(_n_)| for _n_ sufficiently large
 - _f_(_n_) = _Θ_(_g_(_n_)): _c_|_g_(_n_)| ≤ |_f_(_n_)| ≤ _C_|_g_(_n_)| for _n_ sufficiently large
+
+#### Counting
+- _C_(_n_, _r_): number of _r_-combinations of an _n_-element set (_n_!/[(_n_-_r_)!_r_!])
+- _P_(_n_, _r_): number of _r_-permutations of an _n_-element set (_n_(_n_-1) ... (_n_-_r_+1))
+
