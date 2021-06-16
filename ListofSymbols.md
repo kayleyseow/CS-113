@@ -56,3 +56,16 @@ CS-113 Discrete Structures
 - _C_(_n_, _r_): number of _r_-combinations of an _n_-element set (_n_!/[(_n_-_r_)!_r_!])
 - _P_(_n_, _r_): number of _r_-permutations of an _n_-element set (_n_(_n_-1) ... (_n_-_r_+1))
 
+#### Graphs
+- _G_ = (_V_, _E_): graph _G_ with vertex set _V_ and edge set _E_
+- (_v_, _w_): edge
+- δ(_v_): degree of vertex _v_
+- (_v_<sub>1</sub>, ... , _v_<sub>_n_</sub>): path from _v_<sub>1</sub> to _v_<sub>_n_</sub>
+- (_v_<sub>1</sub>, ... , _v_<sub>_n_</sub>):  _v_<sub>1</sub> = _v_<sub>_n_</sub>: cycle
+- _K_<sub>_n_</sub>: complete graph on _n_ vertices
+- _K_<sub>_m_, _n_</sub>: complete bipartite graph on _m_ and _n_ vertices
+- _w_(_i_, _j_): weight of edge (_i_, _j_)
+- _F_<sub>_ij_</sub>: flow in edge (_i_, _j_)
+- _C_<sub>_ij_</sub>: capacity of edge (_i_, _j_)
+- (_P_, _P̄_): cut in a network
+
