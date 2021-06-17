@@ -73,3 +73,11 @@ CS-113 Discrete Structures
 - _P_(_x_): probability of outcome _x_
 - _P_(_E_): probability of event _E_
 - _P_(_E_|_F_): conditional probability of _E_ given _F_[_P_(_E_ ∩ _F_)/_P_(_F_)]
+
+#### Boolean Algebras and Circuits
+- _x_ ∨ _y_: _x_ or _y_ (1 if _x_ or _y_ is 1, 0 otherwise)
+- _x_ ∧ _y_: _x_ and _y_ (1 if _x_ and _y_ are 1, 0 otherwise)
+- _x_ ⊕ _y_: exclusive-OR of _x_ and _y_ (0 if _x_ = _y_, 1 otherwise)
+- _x̄_: not _x_ (0 if _x_ is 1, 1 if _x_ is 0)
+- _x_ ↓ _y_: _x_ NOR _y_ (0 if _x_ or _y_ are 1, 1 otherwise)
+- _x_ ↑ _y_: _x_ NAND _y_ (0 if _x_ and _y_ are 1, 1 otherwise)
