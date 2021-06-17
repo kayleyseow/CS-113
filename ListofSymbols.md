@@ -81,3 +81,5 @@ CS-113 Discrete Structures
 - _x̄_: not _x_ (0 if _x_ is 1, 1 if _x_ is 0)
 - _x_ ↓ _y_: _x_ NOR _y_ (0 if _x_ or _y_ are 1, 1 otherwise)
 - _x_ ↑ _y_: _x_ NAND _y_ (0 if _x_ and _y_ are 1, 1 otherwise)
+- Circuits:  
+![Diagrams of Circuits, All Hand Drawn by Me! In Order From Left to Right: OR Gate, AND Gate, NOT Gate, NOR Gate, and a NAND Gate](https://user-images.githubusercontent.com/47701395/122351208-c8c26780-cf02-11eb-9c28-9378c444dff9.png)
