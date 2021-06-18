@@ -4,7 +4,7 @@ CS-113 Discrete Structures
 #### Logic
 - _p_ ∨ _q_: _p_ or _q_
 - _p_ ∧ _q_: _p_ and _q_
-- ¬ _p_, -_p_, _p_ bar: not _p_
+- ¬ _p_, − _p_, _p_ bar: not _p_
 - _p_ → _q_: if _p_, then _q_
 - _p_ ↔ _q_: _p_ if and only if _q_
 - _P_ ≡ _Q_: _P_ and _Q_ are logically equivalent
@@ -30,7 +30,7 @@ CS-113 Discrete Structures
 - _i_ = 1 ∩ _n_ _X_<sub>_i_</sub>: intersection of _X_<sub>1</sub>, ... , _X_<sub>n</sub> (All elements that belong to every one of _X_<sub>1</sub>, _X_<sub>2</sub>, ... , _X_<sub>_n_</sub>)
 - _i_ = ∞ ∩ _n_ _X_<sub>_i_</sub>: intersection of _X_<sub>1</sub>, _X_<sub>2</sub>, ... , (All elements that belong to every one of _X_<sub>1</sub>, _X_<sub>2</sub>, ...)
 - ∩ _S_: intersection of _S_ (all elements that belong to at every set in _S_)
-- _X_ - _Y_: set difference (all elements in _X_ but not in _Y_)
+- _X_ − _Y_: set difference (all elements in _X_ but not in _Y_)
 - _X̄_: complement of _X_ (all elements not in _X_)
 - (_x_, _y_): ordered pair
 - (_x_<sub>1</sub>, ... , _x_<sub>_n_</sub>): _n_-tuple
@@ -39,7 +39,7 @@ CS-113 Discrete Structures
 #### Relations
 - _xRy_: (_x_, _y_) is in _R_ (_x_ is related to _y_ by the relation _R_)
 - [_x_]: equivalence class containing _x_
-- _R_<sup>-1</sup>: inverse relation (all (y, x) with (x, y) in _R_)
+- _R_<sup>−1</sup>: inverse relation (all (y, x) with (x, y) in _R_)
 - _R_<sub>2</sub> ∘ _R_<sub>1</sub>: composition of relations
 - _x_ ≼ _y_: _xRy_ 
 
@@ -47,14 +47,14 @@ CS-113 Discrete Structures
 - _f_(_x_): value assigned to _x_
 - _f_: _X_ → _Y_: function from _X_ to _Y_
 - _f_ ∘ _g_: composition of _f_ and _g_
-- _f_<sup>-1</sup>: inverse function (all (_y_, _x_) with (_x_, _y_) in _f_)
+- _f_<sup>−1</sup>: inverse function (all (_y_, _x_) with (_x_, _y_) in _f_)
 - _f_(_n_) = _Ο_(_g_(_n_)): |_f_(_n_)| ≤ _C_|_g_(_n_)| for _n_ sufficiently large
 - _f_(_n_) = _Ω_(_g_(_n_)): _c_|_g_(_n_)| ≤ |_f_(_n_)| for _n_ sufficiently large
 - _f_(_n_) = _Θ_(_g_(_n_)): _c_|_g_(_n_)| ≤ |_f_(_n_)| ≤ _C_|_g_(_n_)| for _n_ sufficiently large
 
 #### Counting
-- _C_(_n_, _r_): number of _r_-combinations of an _n_-element set (_n_!/[(_n_-_r_)!_r_!])
-- _P_(_n_, _r_): number of _r_-permutations of an _n_-element set (_n_(_n_-1) ... (_n_-_r_+1))
+- _C_(_n_, _r_): number of _r_-combinations of an _n_-element set (_n_!/[(_n_ − _r_)!_r_!])
+- _P_(_n_, _r_): number of _r_-permutations of an _n_-element set (_n_(_n_ − 1) ... (_n_ − _r_ + 1))
 
 #### Graphs
 - _G_ = (_V_, _E_): graph _G_ with vertex set _V_ and edge set _E_
@@ -98,4 +98,14 @@ CS-113 Discrete Structures
 - _S_ ::= _T_: Backus normal form (BNF)
 - _S_ ::= _T_<sub>1</sub> | _T_<sub>2</sub>: _S_ ::= _T_<sub>1</sub>, _S_ ::= _T_<sub>2</sub>
 - Ac(_A_): set off strings accepted by _A_
+
+#### Matrices
+- (_a_<sub>_ij_</sub>): matrix with entries _a_<sub>_ij_</sub>
+- _A_ = _B_: matrices _A_ and _B_ are equal (_A_ and _B_ are the same size and their corresponding entries are equal)
+- _A_ + _B_: matrix sum
+- _cA_: scalar product
+- − _A_: (−1)_A_
+- _A_ − _B_: _A_ + (− _B_)
+- _AB_: matrix product
+- _A_<sup>_n_</sup>: matrix product _AA_ ... _A_ (_n_ _A_'s)
 
