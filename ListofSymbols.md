@@ -121,3 +121,7 @@ CS-113 Discrete Structures
 - _n_!: _n_ factorial (_n_(_n_ − 1) ... 2 ⋅ 1)
 - _f<sub>n</sub>_: _n_ th Fibonacci number
 - _C<sub>n</sub>_: _n_ th Catalan number
+- _i_ = _m_ Σ _n_ _a<sub>i</sub>_: _a<sub>m</sub>_ + _a<sub>m+1</sub>_ + ... + _a<sub>n</sub>_  
+- _i_ ∈ _X_ Σ _a<sub>i</sub>_: the sum of the elements in the set {_a<sub>i</sub>_ | _i_ ∈ _X_}
+- _i_ = _m_ ∏ _n_ _a<sub>i</sub>_: _a<sub>m</sub>_ ⋅ _a<sub>m+1</sub>_ ⋅ ... ⋅ _a<sub>n</sub>_  
+- _i_ ∈ _X_ ∏ _a<sub>i</sub>_: the product of the elements in the set {_a<sub>i</sub>_ | _i_ ∈ _X_}
