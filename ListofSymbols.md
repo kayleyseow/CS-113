@@ -117,3 +117,7 @@ CS-113 Discrete Structures
 - ⌈_x_⌉: ceiling of _x_ (smallest integer greater than or equal to _x_)
 - _b_ | _a_: _b_ divides _a_
 - _b_ ∤ _a_: _b_ does not divide _a_
+- gcd(_a_, _b_): greatest common divisor of _a_ and _b_
+- _n_!: _n_ factorial (_n_(_n_ − 1) ... 2 ⋅ 1)
+- _f<sub>n</sub>_: _n_ th Fibonacci number
+- _C<sub>n</sub>_: _n_ th Catalan number
