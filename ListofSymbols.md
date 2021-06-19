@@ -109,3 +109,11 @@ CS-113 Discrete Structures
 - _AB_: matrix product
 - _A_<sup>_n_</sup>: matrix product _AA_ ... _A_ (_n_ _A_'s)
 
+#### Miscellaneous
+- lg _x_: logarithm to the base 2 of _x_
+- ln _x_: natural logarithm of _x_ (logarithm to the base _e_ of _x_)
+- _m_ mod _n_: remainder when _m_ is divided by _n_
+- ⌊_x_⌋: floor of _x_ (greatest integer less than or equal to _x_)
+- ⌈_x_⌉: ceiling of _x_ (smallest integer greater than or equal to _x_)
+- _b_ | _a_: _b_ divides _a_
+- _b_ ∤ _a_: _b_ does not divide _a_
