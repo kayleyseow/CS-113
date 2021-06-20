@@ -125,3 +125,39 @@ CS-113 Discrete Structures
 - _i_ ∈ _X_ Σ _a<sub>i</sub>_: the sum of the elements in the set {_a<sub>i</sub>_ | _i_ ∈ _X_}
 - _i_ = _m_ ∏ _n_ _a<sub>i</sub>_: _a<sub>m</sub>_ ⋅ _a<sub>m+1</sub>_ ⋅ ... ⋅ _a<sub>n</sub>_  
 - _i_ ∈ _X_ ∏ _a<sub>i</sub>_: the product of the elements in the set {_a<sub>i</sub>_ | _i_ ∈ _X_}
+
+#### Algorithm Notation
+- `x := y`
+  - assign the value `y` to `x`
+- `begin end`
+  - mark the beginning and end of a block of statements
+- ```
+  if p then
+    action
+  ```
+  - if `p` is true, execute `action`
+- ```
+  if p then  
+    action 1  
+  else  
+    action 2  
+  ```
+  - if `p` is true, execute `action1`; if `p` is false, execute `action2`
+- `//`
+  - a comment starts with `//` and continues to the end of the line
+- `return`
+  - suspend execution and return to invoker
+- `return(x)`
+  - suspend execution and return the value `x` to invoker
+- ```
+  while p do
+    action
+  ```
+  - if `p` is true, execute `action` and repeat this process
+- ```
+  for var := init to limit do
+    action
+  ```
+  - execute `action` for values of `var` from `init` to `limit`
+- <code>call proc(p<sub>1</sub>, ... , p<sub><i>k</i></sub>)</code>
+  - invoke procedure `proc` with arguments <code>p<sub>1</sub>, ... , p<sub><i>k</i></sub></code>
