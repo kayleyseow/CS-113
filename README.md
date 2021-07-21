@@ -11,6 +11,8 @@ This repository has my complete coursework for the CS-113: Discrete Structures c
 **Here is a quick guide to the folders of this repository. If you are looking for a specific file, this should help.**  
 
 # Commit Guide 
+
+# Further Review and Resources
 dm problems with SML
 - https://sosml.org/editor
 
