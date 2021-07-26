@@ -31,5 +31,12 @@ This repository has my complete coursework for the CS-113: Discrete Structures c
 - 💣 - Deleting Files.  
 
 # Further Review and Resources
+
+## Uncategorized Files
+**Here is a quick directory of the the uncategorized files in this repository I made from my further studies. If you are looking for a specific file, this should help.**
+- [](): 
+- [](): 
+- [](): 
+
 dm problems with SML
 - https://sosml.org/editor
