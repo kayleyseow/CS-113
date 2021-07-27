@@ -32,11 +32,11 @@ This repository has my complete coursework for the CS-113: Discrete Structures c
 
 # Further Review and Resources
 
-## Uncategorized Files
-**Here is a quick directory of the the uncategorized files in this repository I made from my further studies. If you are looking for a specific file, this should help.**
-- [](): 
-- [](): 
-- [](): 
+## Further Studies
+**Here is a quick directory of the files from my personal further studies. If you are looking for a specific file, this should help.**
+- [ListofSymbols.md](https://github.com/kayleyseow/CS-113/blob/main/ListofSymbols.md) - List of Symbols (Discrete Mathematics): This file is from the Discrete Mathematics textbook, describing all of the symbols and terminology used throughout the course to describe terminology in Discrete Mathematics. This includes [Logic](https://github.com/kayleyseow/CS-113/blob/main/ListofSymbols.md#logic), [Set Notation](https://github.com/kayleyseow/CS-113/blob/main/ListofSymbols.md#set-notation), [Relations](https://github.com/kayleyseow/CS-113/blob/main/ListofSymbols.md#relations), [Functions](https://github.com/kayleyseow/CS-113/blob/main/ListofSymbols.md#functions), [Counting](https://github.com/kayleyseow/CS-113/blob/main/ListofSymbols.md#counting), [Graphs](https://github.com/kayleyseow/CS-113/blob/main/ListofSymbols.md#graphs), [Probability](https://github.com/kayleyseow/CS-113/blob/main/ListofSymbols.md#probability), [Boolean Algebras and Circuits](https://github.com/kayleyseow/CS-113/blob/main/ListofSymbols.md#boolean-algebras-and-circuits), [Strings, Grammars, and Languages](https://github.com/kayleyseow/CS-113/blob/main/ListofSymbols.md#strings-grammars-and-languages), [Matrices](https://github.com/kayleyseow/CS-113/blob/main/ListofSymbols.md#matrices), [Miscellaneous](https://github.com/kayleyseow/CS-113/blob/main/ListofSymbols.md#miscellaneous), and [Algorithm Notation](https://github.com/kayleyseow/CS-113/blob/main/ListofSymbols.md#algorithm-notation). 
+- [Circuits.md](https://github.com/kayleyseow/CS-113/blob/main/Circuits.md) - Circuits (Discrete Mathematics, Logic Gate Symbols Extended): This file goes deeper into the different type of logic gates used in circuits with information from the Discrete Mathematics textbook as well as the [Circuit Symbols] page (https://electronicsclub.info/circuitsymbols.htm) from [Electronics Club](https://electronicsclub.info/).
+- [ExtendedCircuits.png](https://github.com/kayleyseow/CS-113/blob/main/ExtendedCircuits.png) - Extended Circuits Diagram: Used in conjuction with [Circuits.md](https://github.com/kayleyseow/CS-113/blob/main/Circuits.md), my digitally hand drawn diagrams and notes on the extended logic gates used in circuitry.  
 
 dm problems with SML
 - https://sosml.org/editor
