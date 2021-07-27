@@ -30,7 +30,7 @@ This repository has my complete coursework for the CS-113: Discrete Structures c
 - ✍ - Pertains to [README.md](https://github.com/kayleyseow/CS-113/blob/main/README.md).  
 - 💣 - Deleting Files.  
 
-# Further Review and Resources
+# Further Studies and Resources
 
 ## Further Studies
 **Here is a quick directory of the files from my personal further studies. If you are looking for a specific file, this should help.**
@@ -38,5 +38,14 @@ This repository has my complete coursework for the CS-113: Discrete Structures c
 - [Circuits.md](https://github.com/kayleyseow/CS-113/blob/main/Circuits.md) - Circuits (Discrete Mathematics, Logic Gate Symbols Extended): This file goes deeper into the different type of logic gates used in circuits with information from the Discrete Mathematics textbook as well as the [Circuit Symbols] page (https://electronicsclub.info/circuitsymbols.htm) from [Electronics Club](https://electronicsclub.info/).
 - [ExtendedCircuits.png](https://github.com/kayleyseow/CS-113/blob/main/ExtendedCircuits.png) - Extended Circuits Diagram: Used in conjuction with [Circuits.md](https://github.com/kayleyseow/CS-113/blob/main/Circuits.md), my digitally hand drawn diagrams and notes on the extended logic gates used in circuitry.  
 
+## Textbooks
+**A list of textbooks which I found helpful when I studied for this course and wanted to learn more about Discrete Mathematics.**
+- Discrete Mathematics, 5th Edition, by Richard Johnsonbaugh.
+- How to Read and Do Proofs: An Introduction to Mathematical Thought Processes, 6th Edition, by Daniel Solow.
+- Reading Writing and Doing Mathematical Proofs: Proof Techniques for Geometry, Book One, by Daniel Solow.
+- Introductory Discrete Mathematics, by V.K. Balakrishnan. 
+- Discrete Mathematics An Open Introduction, 3rd Edition, by Oscar Levin. Link: http://discrete.openmathbooks.org/dmoi3.html.
+
+## Links
 dm problems with SML
 - https://sosml.org/editor
