@@ -31,6 +31,7 @@ This repository has my complete coursework for the CS-113: Discrete Structures c
 - 💣 - Deleting Files.  
 
 # Further Studies and Resources
+**A small collection of materials from my personal further studies, and helpful resources like textbooks and websites specifically for discrete math.**  
 
 ## Further Studies
 **Here is a quick directory of the files from my personal further studies. If you are looking for a specific file, this should help.**
@@ -47,5 +48,5 @@ This repository has my complete coursework for the CS-113: Discrete Structures c
 - Discrete Mathematics An Open Introduction, 3rd Edition, by Oscar Levin. Link: http://discrete.openmathbooks.org/dmoi3.html.
 
 ## Links
-dm problems with SML
-- https://sosml.org/editor
+- https://sosml.org/editor: SOSML, an online interpreter for Standard ML.
+- https://electronicsclub.info/: Electronics Club, a website with electronics hardware information, especially helpful for Chapter 9.
